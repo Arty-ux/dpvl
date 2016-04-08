@@ -1,0 +1,261 @@
+/* line 1, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+body {
+  position: relative;
+}
+
+/* line 5, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.navbar {
+  background-color: #CFD8DC;
+  border-radius: 0;
+  border: none;
+}
+
+/* line 10, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.navbar .navbar-brand {
+  white-space: nowrap;
+  padding: 0;
+}
+
+/* line 16, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar.affix {
+  right: 0;
+  top: 0;
+  background-color: #E7EBED;
+  width: 260px;
+}
+
+/* line 23, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search {
+  border-bottom: solid 1px #CFD8DC;
+  height: 50px;
+  padding: 7px 15px;
+}
+
+/* line 29, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav {
+  margin: 0;
+}
+
+/* line 32, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 37, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav ul ul {
+  font-size: 0.9em;
+}
+
+/* line 40, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav ul ul li {
+  padding-left: 5px;
+}
+
+/* line 43, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav ul ul li.active {
+  background-color: #0081A3;
+}
+
+/* line 46, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav ul ul li.active a {
+  color: #fff;
+}
+
+/* line 49, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav ul ul li.active a:hover {
+  text-decoration: none;
+}
+
+/* line 59, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li.level-1:not(:last-child) {
+  border-bottom: solid 1px #CFD8DC;
+  border-left: solid 1px transparent;
+}
+
+/* line 64, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li.level-1 {
+  border-left: solid 1px transparent;
+}
+
+/* line 66, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li.level-1 > a {
+  font-weight: bold;
+}
+
+/* line 70, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li.level-1.active {
+  border-left: solid 1px #0081A3;
+}
+
+/* line 75, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li a {
+  display: block;
+}
+
+/* line 78, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li a:not(.sidebar-collapse) {
+  display: block;
+  line-height: 26px;
+  padding: 0 15px;
+}
+
+/* line 86, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav li.level-2 > a {
+  line-height: 19px;
+}
+
+/* line 92, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-nav .alert {
+  margin: 0;
+  border-radius: 0;
+}
+
+/* line 98, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.guide-title {
+  white-space: nowrap;
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  vertical-align: middle;
+  color: #676868;
+}
+
+/* line 107, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.seekda-logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 48px;
+  line-height: 48px;
+  width: 147px;
+  background-repeat: no-repeat;
+  background-size: auto 78%;
+  background-position: center center;
+  background-image: url("images/logo.svg");
+  text-align: left;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+/* line 122, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.guide-content {
+  position: relative;
+  width: calc(100% - 300px);
+  padding-left: 15px;
+  max-width: 960px;
+  min-width: 640px;
+}
+
+/* line 130, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.guide-section {
+  margin-bottom: 40px;
+}
+
+/* line 134, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.guide-section-title {
+  border-bottom: 1px solid rgba(69, 77, 79, 0.2);
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+/* line 140, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.guide-sub-section {
+  margin-bottom: 30px;
+}
+
+/* line 143, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.guide-sub-section-title {
+  border: none;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+/* line 150, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.well.intro h1 {
+  font-size: 2em;
+}
+
+/* line 155, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.hilite {
+  background-color: #000;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 161, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.footer {
+  border-top: solid 1px #e7e7e7;
+  padding: 120px 0;
+  margin: 20px 0 0 0;
+}
+
+/* line 166, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.footer a {
+  color: #ccc;
+}
+
+/* line 172, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search .fa-times {
+  display: none;
+}
+
+/* line 176, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search .input-group-addon {
+  width: 40px;
+}
+
+/* line 181, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search.guide-search-active .input-group-addon {
+  cursor: pointer;
+}
+
+/* line 185, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search.guide-search-active .form-control {
+  background-color: #f1e05a;
+}
+
+/* line 189, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search.guide-search-active .fa-search {
+  display: none;
+}
+
+/* line 193, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search.guide-search-active .fa-times {
+  display: inline;
+}
+
+/* line 200, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search .dropdown-menu {
+  width: 230px;
+}
+
+/* line 203, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search .dropdown-menu:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: -7px;
+  right: 6px;
+}
+
+/* line 215, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search .dropdown-menu:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  position: absolute;
+  top: -6px;
+  right: 7px;
+}
+
+/* line 227, /home/emanuel/Work/static-website-generator/dpvl/styles/guide.scss */
+.sidebar-search .checkbox:not(:first-child) {
+  margin-top: 20px;
+}

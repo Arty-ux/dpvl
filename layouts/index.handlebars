@@ -1,0 +1,42 @@
+{{#extend "default"}}
+	{{#content "main"}}
+		<div class="guide-section well intro">
+			{{{contents}}}
+		</div>
+			
+		{{#each collections}}
+		<div class="guide-section" id="{{makeHash @key}}">
+			<h2 class="guide-section-title">{{metadata.title}}</h2>
+
+			{{#each this}}
+			<div class="guide-sub-section" id="{{makeHash this.path}}">
+				<h3 class="guide-sub-section-title">{{title}}</h3>
+				<div class="guide-sub-section-content">{{{contents}}}</div>
+			</div>
+			{{/each}}
+
+		</div>
+		{{/each}}
+	{{/content}}
+
+	{{#content "sidebar"}}
+		<ul class="nav">
+		{{#each collections}}
+			<li class="level-1" id="{{makeHash @key}}-nav">
+
+				<a href="#{{makeHash @key}}">{{metadata.title}}</a>
+
+				<ul>
+				{{#each this}}
+					<li class="level-2" id="{{makeHash this.path}}-nav"><a href="#{{makeHash this.path}}">{{title}}</a></li>
+				{{/each}}
+				</ul>
+
+			</li>
+		{{/each}}
+		</ul>
+		<div class="no-results hide">
+			<div class="alert alert-danger">No results found</div>
+		</div>
+	{{/content}}
+{{/extend}}
