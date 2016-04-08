@@ -2,7 +2,7 @@
 order: 3
 title: Dragos Pavelescu
 image: pavelescu_web.jpg
-template: blank.handlebars
+layout: blank.handlebars
 ---
 Dragos Pavelescu ist 34 Jahre alt und wurde in Bukarest/Rumänien geboren, wo er Lebensmitteltechnologie studierte. Anschließend kam er im Jahr 2005 für ein Doktoratsstudium im Fachbereich „Lebensmittel- und Biotechnologie“ an die Universität für Bodenkultur nach Wien. 
 

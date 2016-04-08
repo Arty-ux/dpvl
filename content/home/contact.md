@@ -1,7 +1,7 @@
 ---
 order: 4
 title: Kontakt
-template: blank.handlebars
+layout: blank.handlebars
 ---
 _Dr. nat. techn._ Dragos Pavelescu 
 

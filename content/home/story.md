@@ -2,7 +2,7 @@
 order: 2
 title: Digital mixing
 image: Digital.jpg
-template: story.handlebars
+layout: story.handlebars
 ---
 
 Цифровое сведение In the box позволяет получить максимально качественный результат, сохраняя мобильность сервиса. Этот процесс отличается расширенным спектром возможностей обработки.

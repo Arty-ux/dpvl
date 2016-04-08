@@ -26,13 +26,6 @@ module.exports = {
         "home": {
           "pattern": "home/*.md",
           "sortBy": "order"
-        },
-        "forms": {
-          "pattern": "forms/*.md",
-          "sortBy": "order",
-          "metadata": {
-            "title": "Forms"
-          }
         }
       },
       "metalsmith-markdown": {
@@ -42,7 +35,7 @@ module.exports = {
         "tables": true
       },
       "metalsmith-permalinks": {
-        "pattern": ":collection/:title"
+        "pattern": ":title"
       },
       "metalsmith-layouts": {
         "engine": "handlebars",
