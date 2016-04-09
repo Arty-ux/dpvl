@@ -13,20 +13,20 @@
     <link rel="icon" href="favicon.png">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?9104520038003102">
-    <link rel="stylesheet" type="text/css" href="/assets/app.css?9104520038003102">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?6193950455565937">
+    <link rel="stylesheet" type="text/css" href="/assets/app.css?6193950455565937">
 
-    <script src="/assets/js/jquery.1.11.3.js?9104520038003102"></script>
-    <script src="/assets/js/jquery.debounce.js?9104520038003102"></script>
-    <script src="/assets/js/bootstrap.3.3.6.js?9104520038003102"></script>
-    <script src="/assets/app.js?9104520038003102"></script>
+    <script src="/assets/js/jquery.1.11.3.js?6193950455565937"></script>
+    <script src="/assets/js/jquery.debounce.js?6193950455565937"></script>
+    <script src="/assets/js/bootstrap.3.3.6.js?6193950455565937"></script>
+    <script src="/assets/app.js?6193950455565937"></script>
 </head>
 
 <body data-function="" data-spy="scroll" data-target="#scrollspy">
 	<nav class="navbar navbar-default navbar-fixed-top">  
 		<div class="container-fluid"> 
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/">D.Pavelescu</a> 
+				<a class="navbar-brand" href="#top">D.Pavelescu</a> 
 			</div> 
 			<div class="navbar-header" id="scrollspy"> 
 				<ul class="nav navbar-nav"> 
@@ -40,16 +40,21 @@
     
 <div class="intro" id="top">
 	<img src="assets/images/intro.jpg" class="img-responsive">
-    <div class="content-area">
-                        	<h1 id="pedalones">PEDALONES</h1>
+	<div class="jumbotron-wrap">
+		<div class="container">
+		    <div class="jumbotron">
+		      	                	<h1 id="pedalones">PEDALONES</h1>
 <h2 id="riesling-2015">Riesling 2015</h2>
-<p>Trocken
-<em>Wien, Nußberg</em>
-Qualitätswein aus <em>Österreich</em></p>
+<p><em>Trocken</em></p>
+<p><strong>Wien, Nußberg</strong></p>
+<p>Qualitätswein aus <strong>Österreich</strong></p>
 
 
-    </div>
-</div><div class="container pedalones" id="pedalones">
+				<p><a class="btn btn-primary btn-lg" href="#pedalones" role="button"></a></p>
+			</div>
+		</div>
+	</div>
+</div><div class="section container pedalones" id="pedalones">
     <div class="row">
         <div class="col col-xs-6">
             <div class="content-area">
@@ -67,7 +72,7 @@ Qualitätswein aus <em>Österreich</em></p>
             </div>
         </div>
     </div>
-</div><div class="container story" id="story">
+</div><div class="section container story" id="story">
     <div class="row">
         <div class="col col-xs-6">
             <div class="content-area">
@@ -86,6 +91,8 @@ Qualitätswein aus <em>Österreich</em></p>
             </div>
         </div>
     </div>
+</div>
+<div class="section container story-making-of">
     <div class="row">
         <div class="col col-xs-12">
             <div class="text-center text-info">
@@ -108,14 +115,13 @@ Qualitätswein aus <em>Österreich</em></p>
             </div>
         </div>
     </div>
-</div><div class="container" >
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <div class="text-center">
-                <a class="btn btn-info" role="button" data-toggle="collapse" href="#collapse-24" aria-expanded="false" aria-controls="collapse-24">Mehr über Dragos Pavelescu <span class="caret"></span></a>
-            </div>
+</div><div class="collapse-container" >
+    <div class="container">
+        <div class="text-center">
+            <a class="btn btn-info" role="button" data-toggle="collapse" href="#collapse-24" aria-expanded="false" aria-controls="collapse-24">Mehr über Dragos Pavelescu <span class="caret"></span></a>
         </div>
-        <div class="panel-body collapse" id="collapse-24">
+
+        <div class="collapse" id="collapse-24">
             <div class="row">
                 <div class="col col-xs-6">
                     <div class="image-area">
@@ -135,7 +141,7 @@ Qualitätswein aus <em>Österreich</em></p>
             </div>
         </div>
     </div>
-</div><div class="contact" id="kontakt">
+</div><div class="section contact" id="kontakt">
     <div class="container">
         <div class="row">
             <div class="col col-xs-6">

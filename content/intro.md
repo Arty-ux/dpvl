@@ -7,6 +7,8 @@ nonav: true
 ---
 # PEDALONES
 ## Riesling 2015
-Trocken
-*Wien, Nußberg*
-Qualitätswein aus *Österreich*
+_Trocken_
+
+**Wien, Nußberg**
+
+Qualitätswein aus **Österreich**

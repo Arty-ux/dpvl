@@ -1,11 +1,10 @@
-<div class="container" {{#if (not this.nonav)}}id="{{this.link}}"{{/if}}>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <div class="text-center">
-                <a class="btn btn-info" role="button" data-toggle="collapse" href="#collapse-{{@index}}" aria-expanded="false" aria-controls="collapse-{{@index}}">Mehr über {{title}} <span class="caret"></span></a>
-            </div>
+<div class="collapse-container" {{#if (not this.nonav)}}id="{{this.link}}"{{/if}}>
+    <div class="container">
+        <div class="text-center">
+            <a class="btn btn-info" role="button" data-toggle="collapse" href="#collapse-{{@index}}" aria-expanded="false" aria-controls="collapse-{{@index}}">Mehr über {{title}} <span class="caret"></span></a>
         </div>
-        <div class="panel-body collapse" id="collapse-{{@index}}">
+
+        <div class="collapse" id="collapse-{{@index}}">
             <div class="row">
                 <div class="col col-xs-6">
                     <div class="image-area">
