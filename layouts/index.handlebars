@@ -22,13 +22,13 @@
     <script src="/assets/app.js?{{fileHash}}"></script>
 </head>
 
-<body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy">
+<body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy" data-offset="140">
 	<nav class="navbar navbar-default navbar-fixed-top">  
-		<div class="container-fluid"> 
+		<div class="container"> 
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#top">D.Pavelescu</a> 
+				<a class="navbar-brand text-hide" href="#top">D.Pavelescu</a> 
 			</div> 
-			<div class="navbar-header" id="scrollspy"> 
+			<div class="navbar-right" id="scrollspy"> 
 				<ul class="nav navbar-nav"> 
 				{{#each singlePageItems}}
 					{{#if (not this.nonav)}}

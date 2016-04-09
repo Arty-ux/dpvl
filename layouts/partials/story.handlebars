@@ -1,30 +1,30 @@
-<div class="section container story" id="{{this.link}}">
-    <div class="row">
-        <div class="col col-xs-6">
-            <div class="content-area">
-                {{#block "main"}}{{{contents}}}{{/block}}
+<div class="section story" id="{{this.link}}">
+    <div class="container">
+        <div class="row">
+            <div class="col col-xs-6">
+                <div class="content-area">
+                    {{#block "main"}}{{{contents}}}{{/block}}
+                </div>
+            </div>
+            <div class="col col-xs-6">
+                <div class="image-area">
+                    <img src="assets/images/{{image}}" class="img-responsive">
+                </div>
             </div>
         </div>
-        <div class="col col-xs-6">
-            <div class="image-area">
-                <img src="assets/images/{{image}}" class="img-responsive">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section container story-making-of">
-    <div class="row">
-        <div class="col col-xs-12">
-            <div class="text-center text-info">
+        <div class="story-making-of">
+            <h3 class="text-center">
                 {{gallery_title}}
+            </h3>
+            <div class="row">
+                {{#each gallery}}
+                <div class="col col-xs-4">
+                    <div class="item">
+                        <img src="assets/images/{{this}}" class="img-responsive img-thumbnail">
+                    </div>
+                </div>
+                {{/each}}
             </div>
         </div>
-        {{#each gallery}}
-        <div class="col col-xs-4">
-            <div class="item">
-                <img src="assets/images/{{this}}" class="img-responsive">
-            </div>
-        </div>
-        {{/each}}
     </div>
 </div>

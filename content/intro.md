@@ -5,7 +5,7 @@ layout: blank.handlebars
 tmpl: intro
 nonav: true
 ---
-# PEDALONES
+# „PEDALONES“
 ## Riesling 2015
 _Trocken_
 
