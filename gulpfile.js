@@ -10,12 +10,14 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var webpack = require('webpack');
 
+var singlePage = require('./lib/single-page');
 // Site
 var site = require('./site');
 
 // Handlebars
 var Handlebars = require('handlebars');
 var HandlebarsLib = require('./lib/handlebars')(Handlebars);
+
 
 // Configuration
 var args = {
@@ -32,6 +34,8 @@ function setupMetalsmith(callback) {
     ms.source(msconfig.config.contentRoot);
     ms.destination(msconfig.config.destRoot);
     ms.metadata(msconfig.metadata);
+
+var a;
 
     Object.keys(msplugins).forEach(function(key) {
         var plugin = require(key);
@@ -53,7 +57,14 @@ function setupMetalsmith(callback) {
         } else {
             ms.use(plugin(options));
         }
+
+        if (key == 'metalsmith-permalinks' &&a) {
+            ms.use(singlePage({path: 'index.html'}));
+        }
+
+        a = true;
     });
+    
 
     ms.build(function(err) {
         if (err) {

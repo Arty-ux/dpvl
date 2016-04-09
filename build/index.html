@@ -6,125 +6,109 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Seekda Style Guide</title>
+    <title></title>
     
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?4568329490860924">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css?4568329490860924">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bm-components.css?4568329490860924">
-    <link rel="stylesheet" type="text/css" href="/assets/css/prism.css?4568329490860924">
-    <link rel="stylesheet" type="text/css" href="/assets/app.css?4568329490860924">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?5256742848653812">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css?5256742848653812">
+    <link rel="stylesheet" type="text/css" href="/assets/app.css?5256742848653812">
 
-    <script src="/assets/js/jquery.1.11.3.js?4568329490860924"></script>
-    <script src="/assets/js/jquery.debounce.js?4568329490860924"></script>
-    <script src="/assets/js/searchHighlight.js?4568329490860924"></script>
-    <script src="/assets/js/bootstrap.3.3.6.js?4568329490860924"></script>
-    <script src="/assets/app.js?4568329490860924"></script>
+    <script src="/assets/js/jquery.1.11.3.js?5256742848653812"></script>
+    <script src="/assets/js/jquery.debounce.js?5256742848653812"></script>
+    <script src="/assets/js/bootstrap.3.3.6.js?5256742848653812"></script>
+    <script src="/assets/app.js?5256742848653812"></script>
 </head>
 
-<body data-function="home" data-spy="scroll" data-target="#scrollspy">
-    <header>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="/"><span class="seekda-logo">Seekda</span> <span class="guide-title">dPavelescu</span></a>
+<body data-function="" data-spy="scroll" data-target="#scrollspy">
+	<nav class="navbar navbar-default navbar-fixed-top">  
+		<div class="container-fluid"> 
+			<div class="navbar-header"> 
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"> 
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+				</button> 
+				<a class="navbar-brand" href="/">D.Pavelescu</a> 
+			</div> 
+			<div class="collapse navbar-collapse" id="navbar-collapse"> 
+				<ul class="nav navbar-nav" id="scrollspy"> 
+		            <li><a href="#pedalones">PEDALONES</a></li>
+		            <li><a href="#story">Story</a></li>
+		            <li><a href="#dragos-pavelescu">Dragos Pavelescu</a></li>
+				</ul> 
+			</div> 
+		</div> 
+	</nav> 
+    
+<div class="intro" style="background:url('assets/images/intro.jpg')">
+    <div class="content-area">
+        	                	<h1 id="pedalones">PEDALONES</h1>
+<h2 id="riesling-2015">Riesling 2015</h2>
+<p>Trocken
+<em>Wien, Nußberg</em>
+Qualitätswein aus <em>Österreich</em></p>
+
+
     </div>
-</div>
+</div><div class="container-fluid pedalones" id="pedalones/index.html">
+    <div class="row">
+        <div class="col col-xs-6">
+            <div class="content-area">
+                <img src="assets/images/pedalones_web.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col col-xs-6">
+            <div class="image-area">
+                	                	<h1 id="pedalones">PEDALONES</h1>
+<p>Ab sofort gibt es Österreichs ersten Pop-up-Wein im Verkauf. Pop-up? Ein Konzept, das man bisher eher von Restaurants, Bars oder Geschäften kennt. Umgelegt auf Wein? Jeder Wein ist ein Unikat und wird nur einmalig und in limitierter Auflage erzeugt.</p>
+<p>Das erste Produkt der Popup-Weinlinie mit dem Markennamen „PEDALONES“ ist ein Riesling vom Wiener Nussberg aus dem Jahrgang 2015.</p>
+<p>„PEDALONES“ ist ein Phantasiename und steht für: in die Pedale treten, in Bewegung sein, Gas geben und Spaß haben. Hinter der Idee steckt der junge Önologe Dragos Pavelescu.</p>
 
-
-        </nav>
-        <div class="sidebar affix">
-            <form class="sidebar-search" id="sidebar-search" role="search">
-                <div class="input-group">
-                    <span class="input-group-addon" id="guide-search-control"><span class="fa fa-search"></span><span class="fa fa-times"></span></span>
-                    <input type="text" class="form-control" placeholder="Search" id="guide-search-input">
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></button>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <div class="container-fluid">
-                                <div class="checkbox">
-                                    <label for="search-exact"><input type="checkbox" id="search-exact" value="1" /> Only search exact words</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label for="search-scope"><input type="checkbox" id="search-scope" value="1" /> Only search within code</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <div class="sidebar-nav nav" id="scrollspy">
-                		<ul class="nav">
-			<li class="level-1" id="home-nav">
-
-				<a href="#home"></a>
-
-				<ul>
-					<li class="level-2" id="introduction-nav"><a href="#introduction">Introduction</a></li>
-					<li class="level-2" id="digital-mixing-nav"><a href="#digital-mixing">Digital mixing</a></li>
-					<li class="level-2" id="dragos-pavelescu-nav"><a href="#dragos-pavelescu">Dragos Pavelescu</a></li>
-					<li class="level-2" id="kontakt-nav"><a href="#kontakt">Kontakt</a></li>
-				</ul>
-
-			</li>
-		</ul>
-		<div class="no-results hide">
-			<div class="alert alert-danger">No results found</div>
-		</div>
 
             </div>
         </div>
-    </header>
-    <div class="container-fluid">
-        <div class="guide-content guide-search-index" id="guide-content">
-            		<div class="guide-section well intro">
-			<h1 id="seekda-style-guide">Seekda Style Guide</h1>
-<p>This guide serves as a resource to bring together our principles, guidelines and assets for designing and building awesome user experiences.</p>
+    </div>
+</div><div class="container-fluid story">
+    <div class="row">
+        <div class="col col-xs-6">
+            <div class="content-area">
+                	                	<p>„Als ich unerwartet im September 2015 das einmalige Angebot bekam, gesunde und voll-reife Riesling-Trauben vom Wiener Nussberg kaufen zu können, musste ich einfach zuschlagen“, erzählt der junge, engagierte Önologe Dragos Pavelescu mit Begeisterung.</p>
+<p>Die Frage, wie er diese „Eintagsfliege“ vermarkten könnte, brachte ihn auf eine bisher einzigartige Idee, die den Puls der Zeit genau trifft. „Ich bringe jedes Jahr einen neuen, individuellen Wein auf den Markt. Die Trauben kaufe ich nur von befreundeten Winzerkollegen und lese sie per Hand mit guten Freunden. </p>
+<p>Was die Rebsorten und deren Herkunft betrifft, bin ich für zukünftige Weine offen und flexibel. </p>
+<p>Doch was bei allen Weinen gleich bleibt, ist, dass sie meine persönliche Handschrift tragen und nur in limitierter Menge erhältlich sind.“</p>
 
-		</div>
-			
-		<div class="guide-section" id="home">
-			<h2 class="guide-section-title"></h2>
 
-			<div class="guide-sub-section" id="introduction">
-				<h3 class="guide-sub-section-title">Introduction</h3>
-				<div class="guide-sub-section-content"><p>Sonicpost предоставляет полный спектр услуг пост-продакшна в области музыкального и кинопроизводства.</p>
-</div>
-			</div>
-			<div class="guide-sub-section" id="digital-mixing">
-				<h3 class="guide-sub-section-title">Digital mixing</h3>
-				<div class="guide-sub-section-content"><h1> MY STORY</h1>
-<div style="font-size:2em"><p>Цифровое сведение In the box позволяет получить максимально качественный результат, сохраняя мобильность сервиса. Этот процесс отличается расширенным спектром возможностей обработки.</p>
-</div>
-</div>
-			</div>
-			<div class="guide-sub-section" id="dragos-pavelescu">
-				<h3 class="guide-sub-section-title">Dragos Pavelescu</h3>
-				<div class="guide-sub-section-content"><p>Dragos Pavelescu ist 34 Jahre alt und wurde in Bukarest/Rumänien geboren, wo er Lebensmitteltechnologie studierte. Anschließend kam er im Jahr 2005 für ein Doktoratsstudium im Fachbereich „Lebensmittel- und Biotechnologie“ an die Universität für Bodenkultur nach Wien. </p>
+            </div>
+        </div>
+        <div class="col col-xs-6">
+            <div class="image-area">
+                		                story.jpg
+
+            </div>
+        </div>
+    </div>
+</div><div class="container-fluid" id="dragos-pavelescu/index.html">
+    <div class="well">
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapse-24" aria-expanded="false" aria-controls="collapse-24">Mehr über Dragos Pavelescu <span class="caret"></span></a>
+    </div>
+    <div class="collapse" id="collapse-24">
+        <div class="row">
+            <div class="col col-xs-6">
+                <div class="image-area">
+                    <img src="assets/images/dpavelescu_web.jpg" class="img-responsive">
+                </div>
+            </div>
+            <div class="col col-xs-6">
+                <div class="content-area">
+                		                	<p>Dragos Pavelescu ist 34 Jahre alt und wurde in Bukarest/Rumänien geboren, wo er Lebensmitteltechnologie studierte. Anschließend kam er im Jahr 2005 für ein Doktoratsstudium im Fachbereich „Lebensmittel- und Biotechnologie“ an die Universität für Bodenkultur nach Wien. </p>
 <p>Bis heute hat er sich der wissenschaftlichen Forschung verschrieben und bereits erste Publikationen veröffentlicht (u.A. Lagerung von Weinen auf der Hefe; Aromabildung bei Sauvignon Blanc).</p>
 <p>Hauptberuflich erlernte er neben dem Studium das Handwerkszeug der Kellertechnik in einer renommierten Kellerei in Wien von der Pike auf, wo er heute für ein Produktionsvolumen von rund einer halben Million Flaschen Wein verantwortlich ist.</p>
-</div>
-			</div>
-			<div class="guide-sub-section" id="kontakt">
-				<h3 class="guide-sub-section-title">Kontakt</h3>
-				<div class="guide-sub-section-content"><p><em>Dr. nat. techn.</em> Dragos Pavelescu </p>
-<p>Schäffergasse 
-17/3, 1040 Wien
-Austria</p>
-<p>info@dpavelescu.com</p>
-<p>+43 699 19040257</p>
-</div>
-			</div>
-
-		</div>
 
 
-            <div class="no-results hide">
-                <div class="alert alert-danger">No results found</div>
+                </div>
             </div>
         </div>
     </div>
-    <footer class="footer text-center">
-	<a href="dpavelescu.com" target="_blank"><span class="fa fa-github fa-2x"><span></a>
-</footer>
+</div>    </div>
 </body>
 </html>

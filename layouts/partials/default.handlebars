@@ -1,65 +1,12 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>{{title}}</title>
-    
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?{{fileHash}}">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css?{{fileHash}}">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bm-components.css?{{fileHash}}">
-    <link rel="stylesheet" type="text/css" href="/assets/css/prism.css?{{fileHash}}">
-    <link rel="stylesheet" type="text/css" href="/assets/app.css?{{fileHash}}">
-
-    <script src="/assets/js/jquery.1.11.3.js?{{fileHash}}"></script>
-    <script src="/assets/js/jquery.debounce.js?{{fileHash}}"></script>
-    <script src="/assets/js/searchHighlight.js?{{fileHash}}"></script>
-    <script src="/assets/js/bootstrap.3.3.6.js?{{fileHash}}"></script>
-    <script src="/assets/app.js?{{fileHash}}"></script>
-</head>
-
-<body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy">
-    <header>
-        <nav class="navbar navbar-default">
-            {{#block "header"}}{{> header}}{{/block}}
-        </nav>
-        <div class="sidebar affix">
-            <form class="sidebar-search" id="sidebar-search" role="search">
-                <div class="input-group">
-                    <span class="input-group-addon" id="guide-search-control"><span class="fa fa-search"></span><span class="fa fa-times"></span></span>
-                    <input type="text" class="form-control" placeholder="Search" id="guide-search-input">
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></button>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <div class="container-fluid">
-                                <div class="checkbox">
-                                    <label for="search-exact"><input type="checkbox" id="search-exact" value="1" /> Only search exact words</label>
-                                </div>
-                                <div class="checkbox">
-                                    <label for="search-scope"><input type="checkbox" id="search-scope" value="1" /> Only search within code</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <div class="sidebar-nav nav" id="scrollspy">
-                {{#block "sidebar"}}{{{contents}}}{{/block}}
+<div class="container-fluid default" id="{{this.path}}">
+    <div class="row">
+        <div class="col col-xs-12">
+            <div class="image-area">
+            	{{#block "image"}}{{{contents}}}{{/block}}
             </div>
-        </div>
-    </header>
-    <div class="container-fluid">
-        <div class="guide-content guide-search-index" id="guide-content">
-            {{#block "main"}}{{{contents}}}{{/block}}
-
-            <div class="no-results hide">
-                <div class="alert alert-danger">No results found</div>
+            <div class="content-area">
+            	{{#block "main"}}{{{contents}}}{{/block}}
             </div>
         </div>
     </div>
-    {{#block "footer"}}{{> footer}}{{/block}}
-</body>
-</html>
+</div>

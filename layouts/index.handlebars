@@ -1,42 +1,70 @@
-{{#extend "default"}}
-	{{#content "main"}}
-		<div class="guide-section well intro">
-			{{{contents}}}
-		</div>
-			
-		{{#each collections}}
-		<div class="guide-section" id="{{makeHash @key}}">
-			<h2 class="guide-section-title">{{metadata.title}}</h2>
+<!doctype html>
+<html lang="en">
 
-			{{#each this}}
-			<div class="guide-sub-section" id="{{makeHash this.path}}">
-				<h3 class="guide-sub-section-title">{{title}}</h3>
-				<div class="guide-sub-section-content">{{{contents}}}</div>
-			</div>
-			{{/each}}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{title}}</title>
+    
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?{{fileHash}}">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css?{{fileHash}}">
+    <link rel="stylesheet" type="text/css" href="/assets/app.css?{{fileHash}}">
 
-		</div>
-		{{/each}}
-	{{/content}}
+    <script src="/assets/js/jquery.1.11.3.js?{{fileHash}}"></script>
+    <script src="/assets/js/jquery.debounce.js?{{fileHash}}"></script>
+    <script src="/assets/js/bootstrap.3.3.6.js?{{fileHash}}"></script>
+    <script src="/assets/app.js?{{fileHash}}"></script>
+</head>
 
-	{{#content "sidebar"}}
-		<ul class="nav">
-		{{#each collections}}
-			<li class="level-1" id="{{makeHash @key}}-nav">
+<body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy">
+	<nav class="navbar navbar-default navbar-fixed-top">  
+		<div class="container-fluid"> 
+			<div class="navbar-header"> 
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"> 
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+				</button> 
+				<a class="navbar-brand" href="/">D.Pavelescu</a> 
+			</div> 
+			<div class="collapse navbar-collapse" id="navbar-collapse"> 
+				<ul class="nav navbar-nav" id="scrollspy"> 
+				{{#each singlePageItems}}
+					{{#if this.title}}
+		            <li><a href="#{{this.link}}">{{this.title}}</a></li>
+		            {{/if}}
+		        {{/each}}
+				</ul> 
+			</div> 
+		</div> 
+	</nav> 
+    
+        {{#each singlePageItems}}
+            {{#if (not this.tmpl)}}	            
+	            {{#extend "default"}}
+					{{#content "main"}}
+	                	{{{this.contents}}}
+		            {{/content}}
 
-				<a href="#{{makeHash @key}}">{{metadata.title}}</a>
+					{{#content "image"}}
+		                {{this.image}}
+		            {{/content}}
+		        {{/extend}}
+            {{else}}
+	            {{#extend this.tmpl}}
+					{{#content "main"}}
+	                	{{{this.contents}}}
+		            {{/content}}
 
-				<ul>
-				{{#each this}}
-					<li class="level-2" id="{{makeHash this.path}}-nav"><a href="#{{makeHash this.path}}">{{title}}</a></li>
-				{{/each}}
-				</ul>
-
-			</li>
-		{{/each}}
-		</ul>
-		<div class="no-results hide">
-			<div class="alert alert-danger">No results found</div>
-		</div>
-	{{/content}}
-{{/extend}}
+					{{#content "image"}}
+		                {{this.image}}
+		            {{/content}}
+		        {{/extend}}
+            {{/if}}
+    	{{/each}}
+    </div>
+</body>
+</html>

@@ -22,12 +22,12 @@ module.exports = {
     },
     "plugins": {
       "metalsmith-drafts": {},
-      "metalsmith-collections": {
-        "home": {
-          "pattern": "home/*.md",
-          "sortBy": "order"
-        }
-      },
+      // "metalsmith-collections": {
+      //   "home": {
+      //     "pattern": "home/*.md",
+      //     "sortBy": "order"
+      //   }
+      // },
       "metalsmith-markdown": {
         "smartypants": true,
         "smartLists": true,
@@ -36,6 +36,12 @@ module.exports = {
       },
       "metalsmith-permalinks": {
         "pattern": ":title"
+      },
+      "metalsmith-layouts": {
+        "engine": "handlebars",        
+        "directory": "./layouts",
+        "partials": "./layouts/partials",
+        "default": "index.handlebars"
       },
       "metalsmith-layouts": {
         "engine": "handlebars",
