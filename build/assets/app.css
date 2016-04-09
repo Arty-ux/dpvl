@@ -1700,7 +1700,7 @@ html {
 
 /* line 27, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_scaffolding.scss */
 body {
-  font-family: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857;
   color: #626262;
@@ -1988,13 +1988,13 @@ mark,
 
 /* line 5, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #010066;
+  color: #001e75;
 }
 
 /* line 8, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #010033;
+  color: #001142;
 }
 
 /* line 5, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_text-emphasis.scss */
@@ -2048,13 +2048,13 @@ a.text-danger:focus {
 
 /* line 5, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #010066;
+  background-color: #001e75;
 }
 
 /* line 8, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #010033;
+  background-color: #001142;
 }
 
 /* line 5, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_background-variant.scss */
@@ -4477,30 +4477,30 @@ fieldset[disabled] .btn-default.focus {
 /* line 71, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #010066;
-  border-color: #01004d;
+  background-color: #001e75;
+  border-color: #00175c;
 }
 
 /* line 11, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #010033;
+  background-color: #001142;
   border-color: black;
 }
 
 /* line 17, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover {
   color: #fff;
-  background-color: #010033;
-  border-color: #00000f;
+  background-color: #001142;
+  border-color: #00081e;
 }
 
 /* line 22, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #010033;
-  border-color: #00000f;
+  background-color: #001142;
+  border-color: #00081e;
 }
 
 /* line 29, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
@@ -4509,7 +4509,7 @@ fieldset[disabled] .btn-default.focus {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #00000f;
+  background-color: #00081e;
   border-color: black;
 }
 
@@ -4524,13 +4524,13 @@ fieldset[disabled] .btn-default.focus {
 fieldset[disabled] .btn-primary:hover,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #010066;
-  border-color: #01004d;
+  background-color: #001e75;
+  border-color: #00175c;
 }
 
 /* line 53, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #010066;
+  color: #001e75;
   background-color: #fff;
 }
 
@@ -4978,7 +4978,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #010066;
+  background-color: #001e75;
 }
 
 /* line 103, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_dropdowns.scss */
@@ -5611,7 +5611,7 @@ tbody.collapse.in {
 /* line 131, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #010066;
+  background-color: #001e75;
 }
 
 /* line 144, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_navs.scss */
@@ -6501,8 +6501,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 3;
   color: #fff;
-  background-color: #010066;
-  border-color: #010066;
+  background-color: #001e75;
+  border-color: #001e75;
   cursor: default;
 }
 
@@ -6670,12 +6670,12 @@ a.label:hover, a.label:focus {
 
 /* line 48, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #010066;
+  background-color: #001e75;
 }
 
 /* line 7, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #010033;
+  background-color: #001142;
 }
 
 /* line 52, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_labels.scss */
@@ -7026,7 +7026,7 @@ a.thumbnail.active {
   line-height: 22px;
   color: #fff;
   text-align: center;
-  background-color: #010066;
+  background-color: #001e75;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
@@ -7242,8 +7242,8 @@ button.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #010066;
-  border-color: #010066;
+  background-color: #001e75;
+  border-color: #001e75;
 }
 
 /* line 96, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_list-group.scss */
@@ -7259,7 +7259,7 @@ button.list-group-item {
 
 /* line 101, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #3533ff;
+  color: #4272ff;
 }
 
 /* line 4, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_list-group.scss */
@@ -7771,30 +7771,30 @@ button.list-group-item-danger.active:focus {
 
 /* line 257, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #010066;
+  border-color: #001e75;
 }
 
 /* line 6, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #010066;
-  border-color: #010066;
+  background-color: #001e75;
+  border-color: #001e75;
 }
 
 /* line 11, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #010066;
+  border-top-color: #001e75;
 }
 
 /* line 14, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading .badge {
-  color: #010066;
+  color: #001e75;
   background-color: #fff;
 }
 
 /* line 20, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #010066;
+  border-bottom-color: #001e75;
 }
 
 /* line 260, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_panels.scss */
@@ -8192,7 +8192,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8342,7 +8342,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -9143,11 +9143,16 @@ button.close {
 }
 
 /* line 1, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.navbar.navbar-default {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* line 4, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar-header {
   min-width: 50%;
 }
 
-/* line 4, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 7, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar-header .navbar-brand {
   width: 100%;
   display: block;
@@ -9157,56 +9162,80 @@ button.close {
   background-position: 0 50%;
 }
 
-/* line 14, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 18, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.nav .nav-title {
+  text-align: left;
+  color: #001e75;
+}
+
+/* line 22, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.nav .nav-text {
+  text-align: left;
+  font-size: 12px;
+  color: #001e75;
+}
+
+/* line 29, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro {
   position: relative;
   background: #2f65c9;
 }
 
-/* line 18, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 33, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap {
   position: absolute;
   width: 100%;
   left: 0;
   bottom: 0;
+  padding-bottom: 40px;
 }
 
-/* line 26, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 40, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.intro .jumbotron-wrap a {
+  color: #fff;
+}
+
+/* line 44, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.intro .jumbotron-wrap p {
+  margin: 0;
+  text-shadow: 1px 1px 1px #333333;
+}
+
+/* line 48, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.intro .jumbotron-wrap p:first-child {
+  font-size: 36px;
+}
+
+/* line 53, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.intro .jumbotron-wrap .scroll-down {
+  margin: 20px 0 0;
+}
+
+/* line 59, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 30, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.section.pedalones {
-  background: #2f65c9;
-}
-
-/* line 34, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.section.story {
-  background: #010066;
-}
-
-/* line 37, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.section.story img {
+/* line 68, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section.story .story-image {
   margin-top: 80px;
 }
 
-/* line 42, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 73, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact {
-  background: #5cb85c;
   padding-bottom: 0;
 }
 
-/* line 46, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 76, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact .footer {
-  background: white;
+  background: #161616;
   margin-top: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 55, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 85, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container {
-  background: #f0ad4e;
+  background: white;
 }

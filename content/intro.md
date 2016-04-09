@@ -5,10 +5,14 @@ layout: blank.handlebars
 tmpl: intro
 nonav: true
 ---
-# „PEDALONES“
-## Riesling 2015
-_Trocken_
+PEDALONES
+<br>
+<br>
 
-**Wien, Nußberg**
+Riesling 2015
 
-Qualitätswein aus **Österreich**
+Trocken
+
+Wien, Nußberg
+
+Qualitätswein aus Österreich

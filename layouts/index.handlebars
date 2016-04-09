@@ -13,7 +13,8 @@
     <link rel="icon" href="favicon.png">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?{{fileHash}}">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css?{{fileHash}}">
     <link rel="stylesheet" type="text/css" href="/assets/app.css?{{fileHash}}">
 
     <script src="/assets/js/jquery.1.11.3.js?{{fileHash}}"></script>
@@ -26,13 +27,18 @@
 	<nav class="navbar navbar-default navbar-fixed-top">  
 		<div class="container"> 
 			<div class="navbar-header">
-				<a class="navbar-brand text-hide" href="#top">D.Pavelescu</a> 
+				<a class="navbar-brand text-hide" href="#home">D.Pavelescu</a> 
 			</div> 
 			<div class="navbar-right" id="scrollspy"> 
 				<ul class="nav navbar-nav"> 
 				{{#each singlePageItems}}
 					{{#if (not this.nonav)}}
-		            <li><a href="#{{this.link}}">{{this.title}}</a></li>
+		            <li>
+		            	<a href="#{{this.link}}">
+		            		<div class="nav-title">{{this.title}}</div>
+		            		<div class="nav-text">{{this.navtext}}</div>
+		            	</a>
+		            </li>
 		            {{/if}}
 		        {{/each}}
 				</ul> 

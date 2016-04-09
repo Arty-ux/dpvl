@@ -1,6 +1,6 @@
 ---
 order: 20
-title: Story
+title: STORY
 image: story.jpg
 layout: blank.handlebars
 tmpl: story
@@ -12,7 +12,7 @@ gallery:
 - story_30.jpg
 gallery_title: The Making of PEDALONES
 ---
-## Story
+## STORY
 
 „Als ich unerwartet im September 2015 das einmalige Angebot bekam, gesunde und voll-reife Riesling-Trauben vom Wiener Nussberg kaufen zu können, musste ich einfach zuschlagen“, erzählt der junge, engagierte Önologe Dragos Pavelescu mit Begeisterung.
 

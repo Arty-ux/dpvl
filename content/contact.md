@@ -2,7 +2,7 @@
 order: 100
 layout: blank.handlebars
 tmpl: contact
-title: Kontakt
+title: KONTAKT
 navicon: phone
 navtext: Bestellungen
 email: info@dpavelescu.com
@@ -11,7 +11,7 @@ press_download: /pedalones.zip
 ---
 ## Kontakt und Bestellungen
 
-### Dr. nat. techn. Dragos Pavelescu
+### <small>Dr. nat. techn.</small> Dragos Pavelescu
 
 Schäffergasse 17/3
 

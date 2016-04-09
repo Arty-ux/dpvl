@@ -13,44 +13,62 @@
     <link rel="icon" href="favicon.png">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?7159427655679174">
-    <link rel="stylesheet" type="text/css" href="/assets/app.css?7159427655679174">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css?31416202023252845">
+    <link rel="stylesheet" type="text/css" href="/assets/app.css?31416202023252845">
 
-    <script src="/assets/js/jquery.1.11.3.js?7159427655679174"></script>
-    <script src="/assets/js/jquery.debounce.js?7159427655679174"></script>
-    <script src="/assets/js/bootstrap.3.3.6.js?7159427655679174"></script>
-    <script src="/assets/app.js?7159427655679174"></script>
+    <script src="/assets/js/jquery.1.11.3.js?31416202023252845"></script>
+    <script src="/assets/js/jquery.debounce.js?31416202023252845"></script>
+    <script src="/assets/js/bootstrap.3.3.6.js?31416202023252845"></script>
+    <script src="/assets/app.js?31416202023252845"></script>
 </head>
 
 <body data-function="" data-spy="scroll" data-target="#scrollspy" data-offset="140">
 	<nav class="navbar navbar-default navbar-fixed-top">  
 		<div class="container"> 
 			<div class="navbar-header">
-				<a class="navbar-brand text-hide" href="#top">D.Pavelescu</a> 
+				<a class="navbar-brand text-hide" href="#home">D.Pavelescu</a> 
 			</div> 
 			<div class="navbar-right" id="scrollspy"> 
 				<ul class="nav navbar-nav"> 
-		            <li><a href="#pedalones">PEDALONES</a></li>
-		            <li><a href="#story">Story</a></li>
-		            <li><a href="#kontakt">Kontakt</a></li>
+		            <li>
+		            	<a href="#pedalones">
+		            		<div class="nav-title">PEDALONES</div>
+		            		<div class="nav-text">Riesling 2015</div>
+		            	</a>
+		            </li>
+		            <li>
+		            	<a href="#story">
+		            		<div class="nav-title">STORY</div>
+		            		<div class="nav-text">Pop-Up-Wein</div>
+		            	</a>
+		            </li>
+		            <li>
+		            	<a href="#kontakt">
+		            		<div class="nav-title">KONTAKT</div>
+		            		<div class="nav-text">Bestellungen</div>
+		            	</a>
+		            </li>
 				</ul> 
 			</div> 
 		</div> 
 	</nav> 
     
-<div class="intro" id="top">
+<div class="intro" id="home">
 	<img src="assets/images/intro.jpg" class="img-responsive">
 	<div class="jumbotron-wrap">
 		<div class="container">
 		    <div class="jumbotron">
-		      	                	<h1 id="-pedalones-">„PEDALONES“</h1>
-<h2 id="riesling-2015">Riesling 2015</h2>
-<p><em>Trocken</em></p>
-<p><strong>Wien, Nußberg</strong></p>
-<p>Qualitätswein aus <strong>Österreich</strong></p>
+		      	                	<p>PEDALONES
+<br>
+<br></p>
+<p>Riesling 2015</p>
+<p>Trocken</p>
+<p>Wien, Nußberg</p>
+<p>Qualitätswein aus Österreich</p>
 
 
-				<p><a class="btn btn-primary btn-lg" href="#pedalones" role="button"></a></p>
+				<div class="scroll-down"><a href="#pedalones" role="button"><span class="fa fa-angle-double-down fa-2x"></span></a></div>
 			</div>
 		</div>
 	</div>
@@ -79,7 +97,7 @@
         <div class="row">
             <div class="col col-xs-6">
                 <div class="content-area">
-                                    	<h2 id="story">Story</h2>
+                                    	<h2 id="story">STORY</h2>
 <p>„Als ich unerwartet im September 2015 das einmalige Angebot bekam, gesunde und voll-reife Riesling-Trauben vom Wiener Nussberg kaufen zu können, musste ich einfach zuschlagen“, erzählt der junge, engagierte Önologe Dragos Pavelescu mit Begeisterung.</p>
 <p>Die Frage, wie er diese „Eintagsfliege“ vermarkten könnte, brachte ihn auf eine bisher einzigartige Idee, die den Puls der Zeit genau trifft. „Ich bringe jedes Jahr einen neuen, individuellen Wein auf den Markt. Die Trauben kaufe ich nur von befreundeten Winzerkollegen und lese sie per Hand mit guten Freunden. </p>
 <p>Was die Rebsorten und deren Herkunft betrifft, bin ich für zukünftige Weine offen und flexibel. </p>
@@ -90,7 +108,7 @@
             </div>
             <div class="col col-xs-6">
                 <div class="image-area">
-                    <img src="assets/images/story.jpg" class="img-responsive">
+                    <img src="assets/images/story.jpg" class="img-responsive story-image">
                 </div>
             </div>
         </div>
@@ -120,7 +138,7 @@
 </div><div class="collapse-container" >
     <div class="container">
         <div class="text-center">
-            <a class="btn btn-info" role="button" data-toggle="collapse" href="#collapse-24" aria-expanded="false" aria-controls="collapse-24">Mehr über Dragos Pavelescu <span class="caret"></span></a>
+            <a class="btn btn-info" role="button" data-toggle="collapse" href="#collapse-24" aria-expanded="false" aria-controls="collapse-24">Mehr über Dragos Pavelescu <span class="fa fa-chevron-down"></span></a>
         </div>
 
         <div class="collapse" id="collapse-24">
@@ -148,9 +166,9 @@
         <div class="row">
             <div class="col col-xs-6">
                 <div class="content-area">
-                    <span class="fa fa-mail"></span>
+                    <span class="fa fa-map-marker"></span>
                                     	<h2 id="kontakt-und-bestellungen">Kontakt und Bestellungen</h2>
-<h3 id="dr-nat-techn-dragos-pavelescu">Dr. nat. techn. Dragos Pavelescu</h3>
+<h3 id="-small-dr-nat-techn-small-dragos-pavelescu"><small>Dr. nat. techn.</small> Dragos Pavelescu</h3>
 <p>Schäffergasse 17/3</p>
 <p>1040 Wien</p>
 <p>Austria</p>
@@ -163,7 +181,7 @@
                     <a href="tel://+43 699 19040257"><span class="fa fa-phone"></span> +43 699 19040257</a>
                 </div>
                 <div class="email-area">
-                    <a href="mailto://info@dpavelescu.com"><span class="fa fa-email"></span> info@dpavelescu.com</a>
+                    <a href="mailto://info@dpavelescu.com"><span class="fa fa-envelope-o"></span> info@dpavelescu.com</a>
                 </div>
             </div>
         </div>
