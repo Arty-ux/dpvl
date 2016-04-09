@@ -33,7 +33,7 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse"> 
 				<ul class="nav navbar-nav" id="scrollspy"> 
 				{{#each singlePageItems}}
-					{{#if this.title}}
+					{{#if (not this.nonav)}}
 		            <li><a href="#{{this.link}}">{{this.title}}</a></li>
 		            {{/if}}
 		        {{/each}}
@@ -42,29 +42,28 @@
 		</div> 
 	</nav> 
     
-        {{#each singlePageItems}}
-            {{#if (not this.tmpl)}}	            
-	            {{#extend "default"}}
-					{{#content "main"}}
-	                	{{{this.contents}}}
-		            {{/content}}
+    {{#each singlePageItems}}
+        {{#if (not this.tmpl)}}	            
+            {{#extend "default"}}
+				{{#content "main"}}
+                	{{{this.contents}}}
+	            {{/content}}
 
-					{{#content "image"}}
-		                {{this.image}}
-		            {{/content}}
-		        {{/extend}}
-            {{else}}
-	            {{#extend this.tmpl}}
-					{{#content "main"}}
-	                	{{{this.contents}}}
-		            {{/content}}
+				{{#content "image"}}
+	                {{this.image}}
+	            {{/content}}
+	        {{/extend}}
+        {{else}}
+            {{#extend this.tmpl}}
+				{{#content "main"}}
+                	{{{this.contents}}}
+	            {{/content}}
 
-					{{#content "image"}}
-		                {{this.image}}
-		            {{/content}}
-		        {{/extend}}
-            {{/if}}
-    	{{/each}}
-    </div>
+				{{#content "image"}}
+	                {{this.image}}
+	            {{/content}}
+	        {{/extend}}
+        {{/if}}
+	{{/each}}
 </body>
 </html>

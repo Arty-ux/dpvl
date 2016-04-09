@@ -1,0 +1,23 @@
+<div class="contact" id="{{this.link}}">
+    <div class="container">
+        <div class="row">
+            <div class="col col-xs-6">
+                <div class="content-area">
+                    <span class="fa fa-mail"></span>
+                    {{#block "main"}}{{{contents}}}{{/block}}
+                </div>
+            </div>
+            <div class="col col-xs-6">
+                <div class="phone-area">
+                    <a href="tel://{{phone}}"><span class="fa fa-phone"></span> {{phone}}</a>
+                </div>
+                <div class="email-area">
+                    <a href="mailto://{{email}}"><span class="fa fa-email"></span> {{email}}</a>
+                </div>
+            </div>
+            <div class="col col-xs-12">
+                <a href="{{press_download}}">Presse Download</a>
+            </div>
+        </div>
+    </div>
+</div>

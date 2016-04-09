@@ -1,4 +1,4 @@
-<div class="container-fluid story">
+<div class="container story" id="{{this.link}}">
     <div class="row">
         <div class="col col-xs-6">
             <div class="content-area">
@@ -7,8 +7,20 @@
         </div>
         <div class="col col-xs-6">
             <div class="image-area">
-                {{#block "image"}}{{{contents}}}{{/block}}
+                <img src="assets/images/{{image}}" class="img-responsive">
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col col-xs-12">
+            {{gallery_title}}
+        </div>
+        {{#each gallery}}
+        <div class="col col-xs-4">
+            <div class="item">
+                <img src="assets/images/{{this}}" class="img-responsive">
+            </div>
+        </div>
+        {{/each}}
     </div>
 </div>

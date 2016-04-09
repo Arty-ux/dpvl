@@ -1,17 +1,23 @@
-<div class="container-fluid" id="{{this.path}}">
-    <div class="well">
-        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapse-{{@index}}" aria-expanded="false" aria-controls="collapse-{{@index}}">Mehr über {{title}} <span class="caret"></span></a>
-    </div>
-    <div class="collapse" id="collapse-{{@index}}">
-        <div class="row">
-            <div class="col col-xs-6">
-                <div class="image-area">
-                    <img src="assets/images/{{image}}" class="img-responsive">
+<div class="container" id="{{this.link}}">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col col-xs-6">
+                    <a class="btn btn-default btn-block" role="button" data-toggle="collapse" href="#collapse-{{@index}}" aria-expanded="false" aria-controls="collapse-{{@index}}">Mehr über {{title}} <span class="caret"></span></a>
                 </div>
             </div>
-            <div class="col col-xs-6">
-                <div class="content-area">
-                	{{#block "main"}}{{{contents}}}{{/block}}
+        </div>
+        <div class="panel-body collapse" id="collapse-{{@index}}">
+            <div class="row">
+                <div class="col col-xs-6">
+                    <div class="content-area">
+                        {{#block "main"}}{{{contents}}}{{/block}}
+                    </div>
+                </div>
+                <div class="col col-xs-6">
+                    <div class="image-area">
+                        <img src="assets/images/{{image}}" class="img-responsive">
+                    </div>
                 </div>
             </div>
         </div>

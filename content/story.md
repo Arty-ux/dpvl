@@ -4,6 +4,13 @@ title: Story
 image: story.jpg
 layout: blank.handlebars
 tmpl: story
+navicon: book
+navtext: Pop-Up-Wein
+gallery:
+- story_1.jpg
+- story_13.jpg
+- story_30.jpg
+gallery_title: the making of PEDALONES
 ---
 
 „Als ich unerwartet im September 2015 das einmalige Angebot bekam, gesunde und voll-reife Riesling-Trauben vom Wiener Nussberg kaufen zu können, musste ich einfach zuschlagen“, erzählt der junge, engagierte Önologe Dragos Pavelescu mit Begeisterung.

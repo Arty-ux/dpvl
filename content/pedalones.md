@@ -4,6 +4,8 @@ title: PEDALONES
 image: pedalones_web.jpg
 layout: blank.handlebars
 tmpl: pedalones
+navicon: wine
+navtext: Riesling 2015
 ---
 # PEDALONES
 Ab sofort gibt es Österreichs ersten Pop-up-Wein im Verkauf. Pop-up? Ein Konzept, das man bisher eher von Restaurants, Bars oder Geschäften kennt. Umgelegt auf Wein? Jeder Wein ist ein Unikat und wird nur einmalig und in limitierter Auflage erzeugt.
