@@ -22,12 +22,6 @@ module.exports = {
     },
     "plugins": {
       "metalsmith-drafts": {},
-      // "metalsmith-collections": {
-      //   "home": {
-      //     "pattern": "home/*.md",
-      //     "sortBy": "order"
-      //   }
-      // },
       "metalsmith-markdown": {
         "smartypants": true,
         "smartLists": true,

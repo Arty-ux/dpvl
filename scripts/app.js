@@ -1,1 +1,1 @@
-import DP from './dp';
+import DP from './custom';

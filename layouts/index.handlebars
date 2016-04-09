@@ -5,11 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pop-up-Wein „PEDALONES“ - Riesling vom Wiener Nussberg 2015 - produziert von Önologe Dragos Pavelescu" />
+
+    <title>PEDALONES Riesling 2015 | Wiener Nussberg | D.Pavelescu</title>
     
-    <title>{{title}}</title>
-    
+    <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
+    <link rel="icon" href="favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?{{fileHash}}">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css?{{fileHash}}">
     <link rel="stylesheet" type="text/css" href="/assets/app.css?{{fileHash}}">
 
     <script src="/assets/js/jquery.1.11.3.js?{{fileHash}}"></script>
@@ -21,17 +25,11 @@
 <body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy">
 	<nav class="navbar navbar-default navbar-fixed-top">  
 		<div class="container-fluid"> 
-			<div class="navbar-header"> 
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"> 
-					<span class="sr-only">Toggle navigation</span> 
-					<span class="icon-bar"></span> 
-					<span class="icon-bar"></span> 
-					<span class="icon-bar"></span> 
-				</button> 
+			<div class="navbar-header">
 				<a class="navbar-brand" href="/">D.Pavelescu</a> 
 			</div> 
-			<div class="collapse navbar-collapse" id="navbar-collapse"> 
-				<ul class="nav navbar-nav" id="scrollspy"> 
+			<div class="navbar-header" id="scrollspy"> 
+				<ul class="nav navbar-nav"> 
 				{{#each singlePageItems}}
 					{{#if (not this.nonav)}}
 		            <li><a href="#{{this.link}}">{{this.title}}</a></li>

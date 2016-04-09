@@ -1,5 +1,5 @@
 ---
-order: 15
+order: 25
 title: Dragos Pavelescu
 image: dpavelescu_web.jpg
 layout: blank.handlebars
