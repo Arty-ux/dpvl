@@ -13,6 +13,6 @@ Riesling 2015
 
 Trocken
 
-Wien, Nußberg
+Wien, Nussberg
 
 Qualitätswein aus Österreich

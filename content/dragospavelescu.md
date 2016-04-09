@@ -1,7 +1,7 @@
 ---
 order: 25
 title: Dragos Pavelescu
-image: dpavelescu_web.jpg
+image: dp.jpg
 layout: blank.handlebars
 tmpl: collapse
 nonav: true

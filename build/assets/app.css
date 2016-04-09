@@ -9148,12 +9148,12 @@ button.close {
 }
 
 /* line 4, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.navbar-header {
+.navbar.navbar-default .navbar-header {
   min-width: 50%;
 }
 
 /* line 7, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.navbar-header .navbar-brand {
+.navbar.navbar-default .navbar-header .navbar-brand {
   width: 100%;
   display: block;
   background-image: url(images/dpavelescu_logo.png);
@@ -9162,26 +9162,26 @@ button.close {
   background-position: 0 50%;
 }
 
-/* line 18, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.nav .nav-title {
+/* line 19, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.navbar.navbar-default .nav .nav-title {
   text-align: left;
   color: #001e75;
 }
 
-/* line 22, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.nav .nav-text {
+/* line 23, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.navbar.navbar-default .nav .nav-text {
   text-align: left;
   font-size: 12px;
   color: #001e75;
 }
 
-/* line 29, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 31, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro {
   position: relative;
-  background: #2f65c9;
+  background: #001e75;
 }
 
-/* line 33, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 35, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap {
   position: absolute;
   width: 100%;
@@ -9190,44 +9190,65 @@ button.close {
   padding-bottom: 40px;
 }
 
-/* line 40, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 42, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap a {
   color: #fff;
 }
 
-/* line 44, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 46, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap p {
   margin: 0;
   text-shadow: 1px 1px 1px #333333;
 }
 
-/* line 48, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 50, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap p:first-child {
   font-size: 36px;
 }
 
-/* line 53, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 55, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap .scroll-down {
   margin: 20px 0 0;
 }
 
-/* line 59, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 61, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
+  color: #001e75;
 }
 
-/* line 68, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.section.story .story-image {
-  margin-top: 80px;
+/* line 66, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section .pedalones-bg {
+  background: url("images/pedalones_bg.png") repeat-x center top;
+  padding-top: 80px;
 }
 
-/* line 73, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 72, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section.pedalones h1,
+.section.pedalones h2 {
+  margin-top: 46px;
+  margin-bottom: 46px;
+}
+
+/* line 80, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section.story h1,
+.section.story h2 {
+  margin-top: 0;
+  margin-bottom: 46px;
+}
+
+/* line 91, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section .story-making-of {
+  margin-top: 100px;
+}
+
+/* line 95, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact {
   padding-bottom: 0;
 }
 
-/* line 76, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 98, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact .footer {
   background: #161616;
   margin-top: 40px;
@@ -9235,7 +9256,20 @@ button.close {
   padding-bottom: 40px;
 }
 
-/* line 85, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 107, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container {
+  color: #001e75;
   background: white;
+}
+
+/* line 108, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.collapse-container .iulia {
+  padding-bottom: 40px;
+}
+
+/* line 114, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.collapse-container h1,
+.collapse-container h2 {
+  margin-top: 0;
+  margin-bottom: 46px;
 }

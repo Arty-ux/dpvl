@@ -1,18 +1,19 @@
 .navbar.navbar-default {
 	background: rgba(255,255,255,0.85);
-}
-.navbar-header {
-	min-width:50%;
 	
-	.navbar-brand {
-		width:100%;
-		display:block;
-		background-image:url(images/dpavelescu_logo.png);
-		background-repeat:no-repeat;
-		background-size: auto 67%;
-		background-position:0 50%;
+	.navbar-header {
+		min-width:50%;
+		
+		.navbar-brand {
+			width:100%;
+			display:block;
+			background-image:url(images/dpavelescu_logo.png);
+			background-repeat:no-repeat;
+			background-size: auto 67%;
+			background-position:0 50%;
+		}
 	}
-}
+	
 	.nav {
 		
 		.nav-title {
@@ -25,10 +26,11 @@
 			color: $brand-primary;
 		}			
 	}
+}
 
 .intro {
 	position:relative;
-	background: $brand-info;
+	background: $brand-primary;
 
 	.jumbotron-wrap {
 		position:absolute;
@@ -59,15 +61,35 @@
 .section {
 	padding-top: 40px;
 	padding-bottom: 40px;
+    color: $brand-primary;
 
+	.pedalones-bg {
+		background: url('images/pedalones_bg.png') repeat-x center top;
+		padding-top: 80px;
+	}
+	
 	&.pedalones {
-
+		h1,
+		h2 {
+			margin-top: 46px;
+    		margin-bottom: 46px;
+		}
 	}
 
 	&.story {
-		.story-image {
-			margin-top: 80px;
+		h1,
+		h2 {
+			margin-top: 0;
+    		margin-bottom: 46px;
 		}
+
+		.story-image {
+			// margin-top: 80px;
+		}
+	}
+
+	.story-making-of {
+		margin-top: 100px;
 	}
 
 	&.contact {
@@ -83,5 +105,15 @@
 }
 
 .collapse-container {
+	.iulia {
+		padding-bottom: 40px;
+	}
+	color: $brand-primary;
 	background: $gray-light;
+
+	h1,
+	h2 {
+		margin-top: 0;
+		margin-bottom: 46px;
+	}
 }

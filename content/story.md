@@ -10,7 +10,7 @@ gallery:
 - story_1.jpg
 - story_13.jpg
 - story_30.jpg
-gallery_title: The Making of PEDALONES
+gallery_title: Making of PEDALONES
 ---
 ## STORY
 
