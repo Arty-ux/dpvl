@@ -353,8 +353,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("assets/fonts/glyphicons-halflings-regular.eot");
-  src: url("assets/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("assets/fonts/glyphicons-halflings-regular.woff") format("woff"), url("assets/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("fonts/glyphicons-halflings-regular.eot");
+  src: url("fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("fonts/glyphicons-halflings-regular.woff") format("woff"), url("fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 /* line 24, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_glyphicons.scss */
@@ -1725,8 +1725,8 @@ a {
 
 /* line 52, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #222222;
-  text-decoration: underline;
+  color: #888888;
+  text-decoration: none;
 }
 
 /* line 58, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_scaffolding.scss */
@@ -4379,68 +4379,59 @@ select[multiple].input-lg,
   user-select: none;
 }
 
-/* line 26, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
-.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
-/* line 32, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 23, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
-  color: #333;
+  color: #001e75;
   text-decoration: none;
 }
 
-/* line 39, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 30, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn:active, .btn.active {
   outline: 0;
   background-image: none;
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-/* line 46, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 36, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn.disabled, .btn[disabled],
 fieldset[disabled] .btn {
   cursor: not-allowed;
   opacity: 0.65;
   filter: alpha(opacity=65);
-  box-shadow: none;
 }
 
-/* line 58, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 47, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-/* line 68, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 57, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-default {
-  color: #333;
+  color: #001e75;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: transparent;
 }
 
 /* line 11, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-default:focus, .btn-default.focus {
-  color: #333;
+  color: #001e75;
   background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  border-color: transparent;
 }
 
 /* line 17, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-default:hover {
-  color: #333;
+  color: #001e75;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: transparent;
 }
 
 /* line 22, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active,
 .open > .btn-default.dropdown-toggle {
-  color: #333;
+  color: #001e75;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: transparent;
 }
 
 /* line 29, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
@@ -4448,9 +4439,9 @@ fieldset[disabled] a.btn {
 .open > .btn-default.dropdown-toggle:hover,
 .open > .btn-default.dropdown-toggle:focus,
 .open > .btn-default.dropdown-toggle.focus {
-  color: #333;
+  color: #001e75;
   background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  border-color: transparent;
 }
 
 /* line 37, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
@@ -4465,16 +4456,16 @@ fieldset[disabled] .btn-default:hover,
 fieldset[disabled] .btn-default:focus,
 fieldset[disabled] .btn-default.focus {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: transparent;
 }
 
 /* line 53, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
   color: #fff;
-  background-color: #333;
+  background-color: #001e75;
 }
 
-/* line 71, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 60, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #001e75;
@@ -4534,7 +4525,7 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #fff;
 }
 
-/* line 75, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 64, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
@@ -4594,7 +4585,7 @@ fieldset[disabled] .btn-success.focus {
   background-color: #fff;
 }
 
-/* line 79, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 68, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #2f65c9;
@@ -4654,7 +4645,7 @@ fieldset[disabled] .btn-info.focus {
   background-color: #fff;
 }
 
-/* line 83, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 72, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
@@ -4714,7 +4705,7 @@ fieldset[disabled] .btn-warning.focus {
   background-color: #fff;
 }
 
-/* line 87, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 76, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #ED1C24;
@@ -4774,33 +4765,33 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #fff;
 }
 
-/* line 96, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 85, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-link {
   color: #2f65c9;
   font-weight: normal;
   border-radius: 0;
 }
 
-/* line 101, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 90, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
 fieldset[disabled] .btn-link {
   background-color: transparent;
   box-shadow: none;
 }
 
-/* line 109, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 98, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
 
-/* line 115, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 104, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #222222;
-  text-decoration: underline;
+  color: #888888;
+  text-decoration: none;
   background-color: transparent;
 }
 
-/* line 123, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 112, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:hover,
 fieldset[disabled] .btn-link:focus {
@@ -4808,7 +4799,7 @@ fieldset[disabled] .btn-link:focus {
   text-decoration: none;
 }
 
-/* line 135, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 124, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 20px;
@@ -4816,7 +4807,7 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 6px;
 }
 
-/* line 139, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 128, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 14px;
@@ -4824,7 +4815,7 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 3px;
 }
 
-/* line 143, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 132, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 14px;
@@ -4832,18 +4823,18 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 3px;
 }
 
-/* line 151, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 140, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 157, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 146, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 165, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
+/* line 154, /home/emanuel/Work/static-website-generator/dpvl/styles/bootstrap/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
@@ -6489,7 +6480,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #222222;
+  color: #888888;
   background-color: white;
   border-color: #ddd;
 }
@@ -9178,10 +9169,15 @@ button.close {
 /* line 31, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro {
   position: relative;
-  background: #001e75;
+  margin-bottom: 40px;
 }
 
 /* line 35, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.intro img.img-responsive {
+  margin: 0 auto;
+}
+
+/* line 39, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap {
   position: absolute;
   width: 100%;
@@ -9190,84 +9186,96 @@ button.close {
   padding-bottom: 40px;
 }
 
-/* line 42, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 46, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap a {
   color: #fff;
 }
 
-/* line 46, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 50, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap p {
   margin: 0;
   text-shadow: 1px 1px 1px #333333;
 }
 
-/* line 50, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 54, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap p:first-child {
   font-size: 36px;
 }
 
-/* line 55, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 59, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap .scroll-down {
   margin: 20px 0 0;
 }
 
-/* line 61, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 65, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #001e75;
 }
 
-/* line 66, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 70, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section .pedalones-bg {
   background: url("images/pedalones_bg.png") repeat-x center top;
   padding-top: 80px;
 }
 
-/* line 72, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 76, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.pedalones h1,
 .section.pedalones h2 {
   margin-top: 46px;
   margin-bottom: 46px;
 }
 
-/* line 80, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 84, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.story h1,
 .section.story h2 {
   margin-top: 0;
   margin-bottom: 46px;
 }
 
-/* line 91, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 95, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section .story-making-of {
   margin-top: 100px;
 }
 
-/* line 95, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 99, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact {
-  padding-bottom: 0;
-}
-
-/* line 98, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.section.contact .footer {
-  background: #161616;
-  margin-top: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 107, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.collapse-container {
-  color: #001e75;
-  background: white;
+/* line 103, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section.contact .contact-info {
+  padding-top: 40px;
 }
 
-/* line 108, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 106, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.section.contact .contact-info p {
+  margin-bottom: 40px;
+}
+
+/* line 113, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.collapse-container {
+  color: #001e75;
+}
+
+/* line 114, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container .iulia {
   padding-bottom: 40px;
 }
 
-/* line 114, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 117, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.collapse-container .iulia .btn {
+  padding-left: 0;
+}
+
+/* line 120, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.collapse-container .iulia .btn:hover {
+  background-color: #fff;
+}
+
+/* line 127, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container h1,
 .collapse-container h2 {
   margin-top: 0;

@@ -30,7 +30,11 @@
 
 .intro {
 	position:relative;
-	background: $brand-primary;
+	margin-bottom: 40px;
+
+	img.img-responsive {
+		margin: 0 auto;
+	}
 
 	.jumbotron-wrap {
 		position:absolute;
@@ -93,13 +97,15 @@
 	}
 
 	&.contact {
-		padding-bottom: 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
 
-		.footer {
-			background: $gray;
-			margin-top: 40px;
+		.contact-info {
 			padding-top: 40px;
-			padding-bottom: 40px;
+
+			p {
+				margin-bottom: 40px;
+			}
 		}
 	}
 }
@@ -107,9 +113,16 @@
 .collapse-container {
 	.iulia {
 		padding-bottom: 40px;
+
+		.btn {
+			padding-left:0;
+
+			&:hover {
+				background-color:#fff;
+			}
+		}
 	}
 	color: $brand-primary;
-	background: $gray-light;
 
 	h1,
 	h2 {

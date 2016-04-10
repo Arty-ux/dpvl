@@ -20,15 +20,6 @@
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
   @include user-select(none);
 
-  &,
-  &:active,
-  &.active {
-    &:focus,
-    &.focus {
-      @include tab-focus;
-    }
-  }
-
   &:hover,
   &:focus,
   &.focus {
@@ -40,7 +31,6 @@
   &.active {
     outline: 0;
     background-image: none;
-    @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
   }
 
   &.disabled,
@@ -48,7 +38,6 @@
   fieldset[disabled] & {
     cursor: $cursor-disabled;
     @include opacity(.65);
-    @include box-shadow(none);
   }
 
   // [converter] extracted a& to a.btn

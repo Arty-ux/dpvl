@@ -3,26 +3,20 @@
         <div class="row">
             <div class="col col-xs-6">
                 <div class="content-area">
-                    <span class="fa fa-map-marker"></span>
                     {{#block "main"}}{{{contents}}}{{/block}}
                 </div>
             </div>
-            <div class="col col-xs-6">
-                <div class="phone-area">
-                    <a href="tel://{{phone}}"><span class="fa fa-phone"></span> {{phone}}</a>
-                </div>
-                <div class="email-area">
-                    <a href="mailto://{{email}}"><span class="fa fa-envelope-o"></span> {{email}}</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12 text-center">
-                    <a href="{{press_download}}">Presse Download</a>
-                </div>
+            <div class="col col-xs-6 contact-info text-right">
+                <p class="phone">
+                    <a href="tel:{{phone}}">{{phone}}&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon glyphicon-earphone"></span></a>                    
+                </p>
+                <p class="email">
+                    <a href="mailto:{{email}}">{{email}}&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon glyphicon-envelope"></span></a>
+                </p>
+                <p class="address">
+                    <a href="{{maplink}}" target="blank">{{address}}&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-map-marker"></span></a>
+                </p>
+                <p class="download"><small><a href="{{press_download}}">Presse Download&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon glyphicon-save"></span></a></small></p>
             </div>
         </div>
     </div>
