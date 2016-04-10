@@ -17,6 +17,11 @@
             // console.log('spy', e);
         });
 
-        
+        // Offset for Main Navigation
+        $('#nav').affix({
+            offset: {
+                top: 100
+            }
+        })
     });
 })(jQuery);

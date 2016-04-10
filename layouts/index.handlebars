@@ -23,7 +23,7 @@
 </head>
 
 <body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy" data-offset="140">
-	<nav class="navbar navbar-default navbar-fixed-top">  
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">  
 		<div class="container"> 
 			<div class="navbar-header">
 				<a class="navbar-brand text-hide" href="#home">D.Pavelescu</a> 
@@ -32,7 +32,7 @@
 				<ul class="nav navbar-nav"> 
 				{{#each singlePageItems}}
 					{{#if (not this.nonav)}}
-		            <li>
+		            <li class="nav-item">
 		            	<a href="#{{this.link}}">
 		            		<div class="nav-title">{{this.title}}</div>
 		            		<div class="nav-text">{{this.navtext}}</div>

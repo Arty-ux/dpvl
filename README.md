@@ -1,5 +1,3 @@
-# Booking Manager Guide
-
 HTML site created with static web site generator based on the metalsmith starter kit [metalsmith-base](https://github.com/evocode/metalsmith-base). 
 
 Dependencies / Features:
@@ -14,9 +12,9 @@ Dependencies / Features:
 ## Install
 
 ```
-mkdir bm-guide
+mkdir FOLDERNAME
 git clone git@github.com:Demeure/bm-guide.git
-cd bm-guide
+cd FOLDERNAME
 npm install
 ```
 ## Develop
@@ -33,30 +31,3 @@ npm run start
 1. `npm run debug` - Run a development build in debug mode
 1. `npm run production` - Run a production build, compiles assets and minifies
 1. `npm run watch` - Start the gulp watchers
-
-All commands can be run directly with: `./node_modules/.bin/gulp`
-
-## Code Structure
-
-### JavaScript
-
-### CSS
-
-### Templates
-- all *handlebars templates* are in folder `/layouts`, with extension `.handlebars`
-- all *handlebars partials* are in `/layouts/partials`
-- the *master template* is the partial `default.handlebars`
-
-### Assets
--
-
-
-## Edit the Style Guide Content
-
-### Adding Code
-Code must be wrapped within `<pre><code class="language-html"></code></pre>`. 
-Supported languages are:
-- html `<pre><code class="language-html"></code></pre>`
-- css `<pre><code class="language-css"></code></pre>`
-- javascript `<pre><code class="language-javascript"></code></pre>`
-- json `<pre><code class="language-json"></code></pre>`
