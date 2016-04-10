@@ -7,9 +7,9 @@ tmpl: story
 navicon: book
 navtext: Pop-Up-Wein
 gallery:
-- story_33.jpg
-- story_13.jpg
-- story_1.jpg
+- story_3.jpg
+- story_2.jpg
+- story_4.jpg
 gallery_title: Making of PEDALONES
 ---
 ## STORY

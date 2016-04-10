@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Pop-up-Wein „PEDALONES“ - Riesling vom Wiener Nussberg 2015 - produziert von Önologe Dragos Pavelescu" />
 
-    <title>PEDALONES Riesling 2015 | Wiener Nussberg | D.Pavelescu</title>
+    <title>D.Pavelescu | PEDALONES Riesling 2015 | Wiener Nussberg</title>
     
     <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
     <link rel="icon" href="favicon.png">
@@ -23,24 +23,31 @@
 </head>
 
 <body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy" data-offset="140">
+
 	<nav class="navbar navbar-default navbar-fixed-top" id="nav">  
 		<div class="container"> 
 			<div class="navbar-header">
-				<a class="navbar-brand text-hide" href="#home">D.Pavelescu</a> 
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"> 
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="glyphicon glyphicon-menu-hamburger text-primary"></span>
+				</button>
+				<a class="navbar-brand" href="#home"><strong class="text-hide">D.Pavelescu</strong></a>
 			</div> 
-			<div class="navbar-right" id="scrollspy"> 
-				<ul class="nav navbar-nav"> 
-				{{#each singlePageItems}}
-					{{#if (not this.nonav)}}
-		            <li class="nav-item">
-		            	<a href="#{{this.link}}">
-		            		<div class="nav-title">{{this.title}}</div>
-		            		<div class="nav-text">{{this.navtext}}</div>
-		            	</a>
-		            </li>
-		            {{/if}}
-		        {{/each}}
-				</ul> 
+			<div class="collapse navbar-collapse" id="navbar-collapse" aria-expanded="false"> 
+				<div class="navbar-right" id="scrollspy"> 
+					<ul class="nav navbar-nav"> 
+					{{#each singlePageItems}}
+						{{#if (not this.nonav)}}
+			            <li class="nav-item">
+			            	<a href="#{{this.link}}">
+			            		<div class="nav-title">{{this.title}}</div>
+			            		<div class="nav-text">{{this.navtext}}</div>
+			            	</a>
+			            </li>
+			            {{/if}}
+			        {{/each}}
+					</ul> 
+				</div> 
 			</div> 
 		</div> 
 	</nav> 

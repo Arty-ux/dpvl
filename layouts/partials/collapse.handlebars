@@ -1,17 +1,17 @@
 <div class="collapse-container" {{#if (not this.nonav)}}id="{{this.link}}"{{/if}}>
     <div class="container">
-        <div class="iulia">
+        <div class="more-button">
             <a class="btn btn-default " role="button" data-toggle="collapse" href="#collapse-{{@index}}" aria-expanded="false" aria-controls="collapse-{{@index}}">Mehr über {{title}} <span class="glyphicon glyphicon-menu-down"></span></a>
         </div>
 
         <div class="collapse" id="collapse-{{@index}}">
             <div class="row">
-                <div class="col col-xs-6">
+                <div class="col col-xs-12 col-sm-6">
                     <div class="image-area">
                         <img src="assets/images/{{image}}" class="img-responsive">
                     </div>
                 </div>
-                <div class="col col-xs-6">
+                <div class="col col-xs-12 col-sm-6">
                     <div class="content-area">
                         {{#block "main"}}{{{contents}}}{{/block}}
                     </div>
