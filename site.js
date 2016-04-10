@@ -26,7 +26,9 @@ module.exports = {
         "smartypants": true,
         "smartLists": true,
         "gfm": true,
-        "tables": true
+        "tables": true,
+        "breaks": true,
+        "pedantic": false
       },
       "metalsmith-permalinks": {
         "pattern": ":title"

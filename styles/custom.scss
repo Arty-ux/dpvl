@@ -89,7 +89,7 @@
         }
         p {
             margin: 0;
-            text-shadow: 1px 1px 1px #333333;
+            text-shadow: 1px 1px 1px $brand-primary;
             &:first-child {
                 font-size: 36px;
             }
@@ -140,6 +140,10 @@
                 margin-bottom: 40px;
             }
 
+            p.download {
+                margin-top: 80px;
+            }
+
             a {
                 strong {
                     padding-left:10px;
@@ -180,9 +184,6 @@
             padding-bottom: 0;
             .jumbotron {
                 color: $brand-primary;
-            }
-            br {
-                display: none;
             }
             a {
                 color: $brand-primary;

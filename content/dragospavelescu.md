@@ -1,6 +1,6 @@
 ---
 order: 25
-title: Dragos Pavelescu
+title: Mehr über Dragos Pavelescu
 image: dp.jpg
 layout: blank.handlebars
 tmpl: collapse

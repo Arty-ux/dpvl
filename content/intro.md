@@ -6,10 +6,8 @@ tmpl: intro
 nonav: true
 ---
 PEDALONES
-<br>
-<br>
 
-Riesling 2015
+<br>Riesling 2015
 
 Trocken
 
