@@ -11,6 +11,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var webpack = require('webpack');
 
 var singlePage = require('./lib/single-page');
+
 // Site
 var site = require('./site');
 
@@ -18,6 +19,7 @@ var site = require('./site');
 var Handlebars = require('handlebars');
 var HandlebarsLib = require('./lib/handlebars')(Handlebars);
 
+var surge = require('gulp-surge');
 
 // Configuration
 var args = {
@@ -35,7 +37,7 @@ function setupMetalsmith(callback) {
     ms.destination(msconfig.config.destRoot);
     ms.metadata(msconfig.metadata);
 
-var a;
+    var a;
 
     Object.keys(msplugins).forEach(function(key) {
         var plugin = require(key);
@@ -58,13 +60,13 @@ var a;
             ms.use(plugin(options));
         }
 
-        if (key == 'metalsmith-permalinks' &&a) {
-            ms.use(singlePage({path: 'index.html'}));
+        if (key == 'metalsmith-permalinks' && a) {
+            ms.use(singlePage({ path: 'index.html' }));
         }
 
         a = true;
     });
-    
+
 
     ms.build(function(err) {
         if (err) {
@@ -141,6 +143,13 @@ gulp.task('webpack', function(callback) {
         // console.log(stats.toString({}));
         callback();
     });
+});
+
+gulp.task('deploy', [], function() {
+    return surge({
+        project: './build', // Path to your static build directory
+        domain: 'dpavelescu.com' // Your domain or Surge subdomain
+    })
 });
 
 gulp.task('clear', function(done) {

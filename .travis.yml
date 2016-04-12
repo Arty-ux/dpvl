@@ -4,6 +4,4 @@ node_js:
 before_script:
   - npm install -g gulp
 script: gulp
-after_success:
-  -
-  - surge --project /home/travis/build/emanuelbaruch/dpvl/build/ --domain dpavelescu.com
+#after_success:
