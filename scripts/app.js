@@ -1,0 +1,1 @@
+import DP from './custom';
