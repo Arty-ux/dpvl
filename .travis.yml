@@ -5,5 +5,5 @@ before_script:
   - npm install -g gulp
 script: gulp
 after_success:
-  - dir
-  - surge
+  -
+  - surge --project ./home/travis/build/emanuelbaruch/dpvl/build/ --domain dpavelescu.com
