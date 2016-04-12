@@ -10,7 +10,7 @@
   },
   "homepage": "dpavelescu.com",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "dev": "./node_modules/.bin/gulp",
     "start": "./node_modules/.bin/gulp server",
     "debug": "DEBUG=metalsmith* ./node_modules/.bin/gulp",
