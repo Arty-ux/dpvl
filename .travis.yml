@@ -6,4 +6,4 @@ before_script:
 script: gulp
 after_success:
   -
-  - surge --project ./home/travis/build/emanuelbaruch/dpvl/build/ --domain dpavelescu.com
+  - surge --project /home/travis/build/emanuelbaruch/dpvl/build/ --domain dpavelescu.com
