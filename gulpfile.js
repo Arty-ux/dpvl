@@ -195,4 +195,4 @@ gulp.task('server', ['default', 'watch'], function(callback) {
     });
 });
 
-gulp.task('default', ['scripts', 'styles', 'metalsmith']);
+gulp.task('default', ['scripts', 'styles', 'metalsmith','deploy']);
