@@ -4,7 +4,6 @@ title: STORY
 image: story.jpg
 layout: blank.handlebars
 tmpl: story
-navicon: book
 navtext: Pop-Up-Wein
 gallery:
 - story_3.jpg

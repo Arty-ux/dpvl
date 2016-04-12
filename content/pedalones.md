@@ -4,7 +4,6 @@ title: PEDALONES
 image: pedalones_web.jpg
 layout: blank.handlebars
 tmpl: pedalones
-navicon: bicycle
 navtext: Riesling 2015
 ---
 ## PEDALONES

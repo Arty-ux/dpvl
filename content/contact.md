@@ -3,7 +3,6 @@ order: 100
 layout: blank.handlebars
 tmpl: contact
 title: KONTAKT
-navicon: phone
 navtext: Bestellungen
 phone: +43 699 19040257
 email: info@dpavelescu.com
