@@ -6,14 +6,13 @@ Dependencies / Features:
 - [jQuery ](https://github.com/jquery/jquery)
 - [Bootstrap](https://github.com/twbs/bootstrap/)
 - [Babel / ES6](https://babeljs.io/)
-- [Development Server](https://github.com/evocode/metalsmith-base/blob/master/gulpfile.js#L160)
-
+- Development Server
 
 ## Install
 
 ```
 mkdir FOLDERNAME
-git clone git@github.com:Demeure/bm-guide.git
+git clone github.com/emanuelbaruch/dpvl
 cd FOLDERNAME
 npm install
 ```
