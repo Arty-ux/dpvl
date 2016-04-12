@@ -145,13 +145,6 @@ gulp.task('webpack', function(callback) {
     });
 });
 
-gulp.task('deploy', [], function() {
-    return surge({
-        project: './build', // Path to your static build directory
-        domain: 'dpavelescu.com' // Your domain or Surge subdomain
-    })
-});
-
 gulp.task('clear', function(done) {
     return cache.clearAll(done);
 });
@@ -195,4 +188,11 @@ gulp.task('server', ['default', 'watch'], function(callback) {
     });
 });
 
-gulp.task('default', ['scripts', 'styles', 'metalsmith','deploy']);
+gulp.task('default', ['scripts', 'styles', 'metalsmith']);
+
+gulp.task('deploy', [], function() {
+    return surge({
+        project: './build', // Path to your static build directory
+        domain: 'dpavelescu.com' // Your domain or Surge subdomain
+    })
+});
