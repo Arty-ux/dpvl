@@ -9309,7 +9309,7 @@ button.close {
 }
 
 /* line 148, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
-.section.contact .contact-info a strong {
+.section.contact .contact-info a .text {
   padding-left: 10px;
   padding-right: 10px;
 }
