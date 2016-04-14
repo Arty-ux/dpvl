@@ -19,8 +19,6 @@ var site = require('./site');
 var Handlebars = require('handlebars');
 var HandlebarsLib = require('./lib/handlebars')(Handlebars);
 
-var surge = require('gulp-surge');
-
 // Configuration
 var args = {
     build: !!argv.build,
@@ -189,10 +187,3 @@ gulp.task('server', ['default', 'watch'], function(callback) {
 });
 
 gulp.task('default', ['scripts', 'styles', 'metalsmith']);
-
-gulp.task('deploy', [], function() {
-    return surge({
-        project: './build', // Path to your static build directory
-        domain: 'dpavelescu.com' // Your domain or Surge subdomain
-    })
-});
