@@ -10,4 +10,4 @@ env:
   - secure: "T+w7d9fD/zVwJZadzSQ2M3hJiLQUodxWguG8uJEWRPJwlhkNxTgDz+8oJMZpd1ApoRQAhySRqztwDVoh9aQZkN4pcy18Mr96VpbdvdlPthjRh7im8QOGzL/FkdgRv5my4dnJyWG/VJ4nAJskaE2jSIXFnCIHURrIVOYKoPwzX3oV4CW42UUFDsKVZN0PXTjzjNntemDiCzYAyw0Jp0dR7smrFuLJYYwJDQBhqlmmkdhrwir6kAg8bf4EBZFRFzQaO5akjYQRaojPtHremXii7SRk1MEWGCBRbA4SbFO3/A106f62BGqw24i8tjtDCb+UFAkaMZn2LkH/ABGb8PL1on4Hd2gpjbZ4NfTjJ/BeC0LqszRAWL/IRUYPTe6KteiiZ68DRg+JxvrwfGmd8Sq8EXYvpDqSU/BewD0qjlKLH+FDIJl0EubWBlvOhLpyDtYRozBjBHCys+MPyqrnICe5ONiibNOY2KJd3BKg47tO2t+T01horPrnXdtOJqcLOX9BSwBlWdD7svy0CQNQsvB1Ey+3JhXZ4+6RAOUaXtoLcn/dz7oFkGzW/LHaXFgY1bmLlFwrGwOdWy2CX0RIQtLB702N7G4ooV2QKNElsAUMNlJhXrENYkq0y/o3URUnbiTT8tqoeaoQB0BwS+0aXkSn9GWvW5Jzre+Ee+6QI4LN0Bk="
 after_success:
   # - "curl --ftp-create-dirs -T ./build/index.html -u $FTP_USER:$FTP_PASSWORD ftp://u83224274.1and1-data.host/index.html"
-  - find ./build/ -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD sftp://u83224274.1and1-data.host/{} \;
+  - find ./build/ -type f -exec curl --ftp-create-dirs --ftp-ssl -T {} -u $FTP_USER:$FTP_PASSWORD ftp://u83224274.1and1-data.host/{} \;
