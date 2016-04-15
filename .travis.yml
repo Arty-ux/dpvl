@@ -6,8 +6,8 @@ before_script:
 script: gulp
 env:
   global:
-    - secure: "SBm9H4pUFZfGpi2OtYnGv+pNDxGrIq1MffeY+DiZz42aMQnrQKIrIQBKa0jTN+UEMaLH4D7NW1DpRUz674spfL2jlkrkpylCx1atzgpfAt3ixM0xvMDh4NchUt7Srm6dfvn4QNiame6Wwv2SOQXAd6VcTduTQRc85HL3Vpn4ljDT15tQP2jv2bbRnAVVESgePAED6kLqZjZC7oRyKnGbHYNz4b/mFtMkiFcp5nOFQRosTjdxLTwu7WFhQJjPN/GM3LQtdSfU9oD2JR3jHvaEAIuJZfJn5K/IJZ8Ipi5yCHNXzNHvL4AIev/ZFPzBeBoTcJ33hLDGc/dhOTeaiw77jdCfg5ZPB5YZNoFPQ9sAndhF91otfo0bVnR1z2qUA1qzrj5G9R/W18/bx1errGVfZ3WekHG+biJl4+SsO5vIGC4QeAJ6UoSTw+6XNlNsJ9HObkQ6m5qD+KJiYf/upiRz/S6zCxJg30YMN3qcGrusG8PN/hq+2JurSmS/IKA3bhoDT91r5uFPJEcBIrVzG54GHyROY5d8Wj32KuMyFlM893zUakY7ez6aLeKcYE1hW8lN4MT7g4Isg2POVg1PxcSBLejAHPi1cKoemDI/c8zpeQ3to99n1+VR3W9RPpnDBK9Lt7TzLTHotcxlbJbHO0XcbaF0Z4JeT5SoO+/WQAVwniE="
-    - secure: "T+w7d9fD/zVwJZadzSQ2M3hJiLQUodxWguG8uJEWRPJwlhkNxTgDz+8oJMZpd1ApoRQAhySRqztwDVoh9aQZkN4pcy18Mr96VpbdvdlPthjRh7im8QOGzL/FkdgRv5my4dnJyWG/VJ4nAJskaE2jSIXFnCIHURrIVOYKoPwzX3oV4CW42UUFDsKVZN0PXTjzjNntemDiCzYAyw0Jp0dR7smrFuLJYYwJDQBhqlmmkdhrwir6kAg8bf4EBZFRFzQaO5akjYQRaojPtHremXii7SRk1MEWGCBRbA4SbFO3/A106f62BGqw24i8tjtDCb+UFAkaMZn2LkH/ABGb8PL1on4Hd2gpjbZ4NfTjJ/BeC0LqszRAWL/IRUYPTe6KteiiZ68DRg+JxvrwfGmd8Sq8EXYvpDqSU/BewD0qjlKLH+FDIJl0EubWBlvOhLpyDtYRozBjBHCys+MPyqrnICe5ONiibNOY2KJd3BKg47tO2t+T01horPrnXdtOJqcLOX9BSwBlWdD7svy0CQNQsvB1Ey+3JhXZ4+6RAOUaXtoLcn/dz7oFkGzW/LHaXFgY1bmLlFwrGwOdWy2CX0RIQtLB702N7G4ooV2QKNElsAUMNlJhXrENYkq0y/o3URUnbiTT8tqoeaoQB0BwS+0aXkSn9GWvW5Jzre+Ee+6QI4LN0Bk="
+    - "FTP_USER=admin@experiente-gastronomice.ro"
+    - "FTP_PASSWORD=9970723929"
 after_success:
   # - "curl --ftp-create-dirs -T ./build/index.html -u $FTP_USER:$FTP_PASSWORD ftp://u83224274.1and1-data.host/index.html"
-  - find ./build/ -type f -exec curl --ftp-create-dirs --ftp-ssl -T "{}" -u $FTP_USER:$FTP_PASSWORD ftp://u83224274.1and1-data.host/"{}" \;
+  - find ./build/ -type f -exec curl -v --ftp-create-dirs --ftp-ssl -T "{}" -u $FTP_USER:$FTP_PASSWORD ftp://u83224274.1and1-data.host/"{}" \;
