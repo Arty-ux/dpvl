@@ -11,4 +11,4 @@ env:
 after_success:
   - sudo apt-get -qq update
   - sudo apt-get install -y ncftpput
-  - ncftpput -u $FTP_USER -p $FTP_PASSWORD -R u83224274.1and1-data.host / ./build/
+  - sudo ncftpput -u $FTP_USER -p $FTP_PASSWORD -R u83224274.1and1-data.host / ./build/
