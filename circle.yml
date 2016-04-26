@@ -5,8 +5,8 @@ machine:
 
 dependencies:
   override:
-    - npm run start
-    
+    - npm run
+
 test:
   override:
     - npm test
