@@ -5,8 +5,8 @@ machine:
 
 dependencies:
   override:
-    - npm install --only=dev
-
+    - npm run start
+    
 test:
   override:
     - npm test
