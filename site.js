@@ -6,12 +6,7 @@ module.exports = {
     "include": []
   },
   "metalsmith": {
-    "metadata": {
-      "site": {
-        "url": "dpavelescu.com",
-        "title": "dPavelescu"
-      },
-    },
+    "metadata": {},
     "config": {
       "contentRoot": "./content",
       "assetRoot": "./sources",
@@ -22,6 +17,16 @@ module.exports = {
     },
     "plugins": {
       "metalsmith-drafts": {},
+      "metalsmith-collections": {
+          "de": {
+            "pattern": "de/*.md",
+            "sortBy": "order"
+          },
+          "ro": {
+            "pattern": "ro/*.md",
+            "sortBy": "order"
+          }
+        },
       "metalsmith-markdown": {
         "smartypants": true,
         "smartLists": true,
@@ -31,16 +36,10 @@ module.exports = {
         "pedantic": false
       },
       "metalsmith-permalinks": {
-        "pattern": ":title"
+        "pattern": ":collection/:title"
       },
       "metalsmith-layouts": {
         "engine": "handlebars",        
-        "directory": "./layouts",
-        "partials": "./layouts/partials",
-        "default": "index.handlebars"
-      },
-      "metalsmith-layouts": {
-        "engine": "handlebars",
         "directory": "./layouts",
         "partials": "./layouts/partials",
         "default": "index.handlebars"

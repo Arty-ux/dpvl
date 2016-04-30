@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de">
+<html lang="{{langCode}}">
 
 <head>
     <meta charset="utf-8">
@@ -37,7 +37,7 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse" aria-expanded="false"> 
 				<div class="navbar-right" id="scrollspy"> 
 					<ul class="nav navbar-nav"> 
-					{{#each singlePageItems}}
+					{{#each contentItems}}
 						{{#if (not this.nonav)}}
 			            <li class="nav-item">
 			            	<a href="#{{this.link}}">
@@ -53,7 +53,7 @@
 		</div> 
 	</nav> 
     
-    {{#each singlePageItems}}
+    {{#each contentItems}}
         {{#if (not this.tmpl)}}	            
             {{#extend "default"}}
 				{{#content "main"}}

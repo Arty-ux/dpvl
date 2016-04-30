@@ -59,7 +59,7 @@ function setupMetalsmith(callback) {
         }
 
         if (key == 'metalsmith-permalinks' && a) {
-            ms.use(singlePage({ path: 'index.html' }));
+            ms.use(singlePage({ path: 'index.html', 'defaultLang': 'de' }));
         }
 
         a = true;
