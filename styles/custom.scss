@@ -1,3 +1,29 @@
+.language {
+    .container {
+        position: relative;
+        z-index: 10;
+    }
+
+    .languages {
+        position: absolute;
+        left: 20px;
+        top: 148px;
+    }
+
+    .lang-item {
+        display: inline-block;
+        font-size: 11px;
+        a {
+            display: block;
+            color: $brand-primary;
+            padding: 4px;
+        }
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+}
+
 .navbar,
 .navbar li,
 .navbar a {
@@ -176,6 +202,9 @@
 }
 
 @media (max-width: $screen-xs-max) {
+    .language .languages {
+        top: 88px;
+    }
     .intro {
         margin-top: 80px;
         margin-bottom: 0;
@@ -265,6 +294,9 @@
 }
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .language .languages {
+        top: 88px;
+    }
     .intro {
         .jumbotron-wrap {
             bottom: auto;
@@ -309,4 +341,13 @@
     .content-area {
         padding-right: 40px;
     }
+}
+
+.glyphicon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }

@@ -13,4 +13,4 @@ Sec
 
 Viena, Nussberg
 
-Vin de calitate superioara produs in Austria
+Vin de calitate produs in Austria

@@ -20,11 +20,17 @@ module.exports = {
       "metalsmith-collections": {
           "de": {
             "pattern": "de/*.md",
-            "sortBy": "order"
+            "sortBy": "order",
+            "metadata": {
+              "langLabel": "Deutsch"
+            }
           },
           "ro": {
             "pattern": "ro/*.md",
-            "sortBy": "order"
+            "sortBy": "order",
+            "metadata": {
+              "langLabel": "Română"
+            }
           }
         },
       "metalsmith-markdown": {

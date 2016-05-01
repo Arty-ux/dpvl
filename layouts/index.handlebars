@@ -8,7 +8,7 @@
     <meta name="google-site-verification" content="8qbz_VyA9hDGtrntffwC0SA3k8ePIbYsh71SUrj8Sns" />
     <meta name="description" content="Pop-up-Wein „PEDALONES“ - Riesling vom Wiener Nussberg 2015 - produziert von Önologe Dragos Pavelescu" />
 
-    <title>d.Pavelescu | PEDALONES Riesling 2015 | Wien Nussberg</title>
+    <title>d.Pavelescu | PEDALONES Riesling 2015 | Nussberg Wien / Vienna</title>
     
     <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
     <link rel="icon" href="favicon.png">
@@ -24,16 +24,27 @@
 </head>
 
 <body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy" data-offset="140">
-
-	<nav class="navbar navbar-default navbar-fixed-top" id="nav">  
+	<div class="language">
+		<div class="container"> 
+			<div class="languages">
+			    {{#each collections}}
+			    	{{#if (not (eq @key ../langCode))}}
+			    	<span class="lang-item"><a href="/{{#if (not (eq @key "de"))}}{{@key}}{{/if}}">{{{this.metadata.langLabel}}} <span class="glyphicon glyphicon glyphicon-chevron-up glyphicon-rotate-90"></span></a></span>
+			    	{{else}}
+			    	<span class="lang-item">{{{this.metadata.langLabel}}} <span class="glyphicon glyphicon-ok"></span></span>
+			    	{{/if}}
+			    {{/each}}
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
 		<div class="container"> 
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"> 
-					<span class="sr-only">Toggle navigation</span> 
 					<span class="glyphicon glyphicon-menu-hamburger text-primary"></span>
 				</button>
 				<a class="navbar-brand" href="#home"><strong class="text-hide">D.Pavelescu</strong></a>
-			</div> 
+			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse" aria-expanded="false"> 
 				<div class="navbar-right" id="scrollspy"> 
 					<ul class="nav navbar-nav"> 

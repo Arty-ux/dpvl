@@ -9125,7 +9125,38 @@ button.close {
   }
 }
 
-/* line 1, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 2, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.language .container {
+  position: relative;
+  z-index: 10;
+}
+
+/* line 7, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.language .languages {
+  position: absolute;
+  left: 20px;
+  top: 148px;
+}
+
+/* line 13, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.language .lang-item {
+  display: inline-block;
+  font-size: 11px;
+}
+
+/* line 16, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.language .lang-item a {
+  display: block;
+  color: #001e75;
+  padding: 4px;
+}
+
+/* line 21, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.language .lang-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* line 27, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar,
 .navbar li,
 .navbar a {
@@ -9133,18 +9164,18 @@ button.close {
   transition: all 0.35s;
 }
 
-/* line 9, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 35, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default {
   background: rgba(255, 255, 255, 0.75);
   box-shadow: 0px 0 1px #ccc;
 }
 
-/* line 14, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 40, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .navbar-header {
   min-width: 50%;
 }
 
-/* line 16, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 42, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .navbar-header .navbar-brand {
   width: 100%;
   display: block;
@@ -9154,35 +9185,35 @@ button.close {
   background-position: 0 50%;
 }
 
-/* line 27, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 53, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .nav .nav-item:not(:first-child) {
   margin-left: 40px;
 }
 
-/* line 31, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 57, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .nav .nav-item a .nav-text {
   opacity: 1;
 }
 
-/* line 35, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 61, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .nav .nav-item.active a {
   background-color: transparent;
   color: #2f65c9;
 }
 
-/* line 38, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 64, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .nav .nav-item.active a div {
   color: #2f65c9;
 }
 
-/* line 43, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 69, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .nav .nav-title {
   text-align: left;
   line-height: 1.5;
   color: #001e75;
 }
 
-/* line 48, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 74, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default .nav .nav-text {
   text-align: left;
   line-height: 1.5;
@@ -9190,43 +9221,43 @@ button.close {
   color: #001e75;
 }
 
-/* line 55, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 81, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default.affix {
   background: white;
   min-height: 60px;
 }
 
-/* line 58, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 84, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default.affix .navbar-brand {
   padding-top: 29px;
   padding-bottom: 29px;
   height: 90px;
 }
 
-/* line 64, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 90, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default.affix .nav-item a {
   padding-top: 39px;
   padding-bottom: 13px;
 }
 
-/* line 67, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 93, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .navbar.navbar-default.affix .nav-item a .nav-text {
   opacity: 0;
 }
 
-/* line 75, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 101, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro {
   position: relative;
   margin-bottom: 40px;
 }
 
-/* line 78, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 104, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro img.img-responsive {
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 82, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 108, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap {
   position: absolute;
   width: 100%;
@@ -9235,107 +9266,107 @@ button.close {
   padding-bottom: 40px;
 }
 
-/* line 88, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 114, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap a {
   color: #fff;
 }
 
-/* line 91, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 117, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap p {
   margin: 0;
   text-shadow: 1px 1px 1px #001e75;
 }
 
-/* line 94, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 120, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap p:first-child {
   font-size: 36px;
 }
 
-/* line 98, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 124, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .intro .jumbotron-wrap .scroll-down {
   margin: 20px 0 0;
 }
 
-/* line 104, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 130, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #001e75;
 }
 
-/* line 108, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 134, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section .pedalones-bg {
   background: url("images/pedalones_bg.png") repeat-x center top;
   padding-top: 80px;
 }
 
-/* line 113, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 139, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.pedalones h1,
 .section.pedalones h2 {
   margin-top: 46px;
   margin-bottom: 46px;
 }
 
-/* line 120, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 146, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.story h1,
 .section.story h2 {
   margin-top: 0;
   margin-bottom: 46px;
 }
 
-/* line 129, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 155, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section .story-making-of {
   margin-top: 40px;
 }
 
-/* line 132, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 158, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section .story-making-of h3 {
   margin-bottom: 20px;
 }
 
-/* line 136, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 162, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 140, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 166, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact .contact-info p:not(.download) {
   margin-bottom: 40px;
 }
 
-/* line 144, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 170, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact .contact-info p.download {
   margin-top: 80px;
 }
 
-/* line 149, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 175, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .section.contact .contact-info a .text {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 158, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 184, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container {
   color: #001e75;
 }
 
-/* line 159, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 185, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container .more-button {
   padding-bottom: 20px;
 }
 
-/* line 161, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 187, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container .more-button .btn {
   padding-left: 0;
 }
 
-/* line 163, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 189, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container .more-button .btn:active, .collapse-container .more-button .btn:focus, .collapse-container .more-button .btn:hover {
   background-color: #fff;
 }
 
-/* line 171, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+/* line 197, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
 .collapse-container h1,
 .collapse-container h2 {
   margin-top: 0;
@@ -9343,131 +9374,139 @@ button.close {
 }
 
 @media (max-width: 767px) {
-  /* line 179, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 205, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  .language .languages {
+    top: 88px;
+  }
+  /* line 208, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro {
     margin-top: 80px;
     margin-bottom: 0;
   }
-  /* line 182, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 211, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro .jumbotron-wrap {
     position: static;
     padding-top: 40px;
     padding-bottom: 0;
   }
-  /* line 186, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 215, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro .jumbotron-wrap .jumbotron {
     color: #001e75;
   }
-  /* line 189, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 218, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro .jumbotron-wrap a {
     color: #001e75;
   }
-  /* line 192, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 221, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro .jumbotron-wrap p {
     margin: 0;
     text-shadow: none;
   }
-  /* line 195, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 224, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro .jumbotron-wrap p:first-child {
     font-size: 36px;
   }
-  /* line 201, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 230, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav {
     min-height: 80px;
   }
-  /* line 203, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 232, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav a {
     padding-top: 19px;
     padding-bottom: 19px;
   }
-  /* line 208, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 237, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav .navbar-brand {
     height: 80px;
     margin-left: 20px;
     width: 80%;
   }
-  /* line 214, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 243, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav .nav-item {
     margin-left: 20px;
   }
-  /* line 218, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 247, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav.affix {
     min-height: 40px;
   }
-  /* line 220, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 249, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav.affix .navbar-brand {
     padding-top: 19px;
     padding-bottom: 19px;
     height: 60px;
   }
-  /* line 226, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 255, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav.affix .nav-item a {
     padding-top: 19px;
     padding-bottom: 3px;
   }
-  /* line 233, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 262, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 12px;
   }
-  /* line 239, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 268, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .pedalones {
     padding-bottom: 0;
   }
-  /* line 242, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 271, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .pedalones .pedalones-bg {
     margin-top: 40px;
   }
-  /* line 247, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 276, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .story {
     padding-bottom: 0;
   }
-  /* line 249, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 278, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .story .content-area {
     padding-top: 40px;
   }
-  /* line 254, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 283, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .story .story-making-of .item {
     margin-bottom: 20px;
   }
-  /* line 261, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 290, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .contact .contact-info {
     text-align: left;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 269, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 297, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  .language .languages {
+    top: 88px;
+  }
+  /* line 301, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .intro .jumbotron-wrap {
     bottom: auto;
     top: 120px;
     padding-bottom: 40px;
   }
-  /* line 275, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 307, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .navbar-brand {
     height: 80px;
     margin-left: 0 !important;
   }
-  /* line 279, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 311, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav {
     min-height: 80px;
   }
-  /* line 281, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 313, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav a {
     padding-top: 19px;
     padding-bottom: 19px;
   }
-  /* line 286, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 318, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav.affix {
     min-height: 40px;
   }
-  /* line 288, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 320, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav.affix .navbar-brand {
     padding-top: 19px;
     padding-bottom: 19px;
     height: 60px;
   }
-  /* line 295, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 327, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   #nav.affix .nav-item a {
     padding-top: 19px;
     padding-bottom: 3px;
@@ -9475,8 +9514,16 @@ button.close {
 }
 
 @media (min-width: 1200px) {
-  /* line 309, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+  /* line 341, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
   .content-area {
     padding-right: 40px;
   }
+}
+
+/* line 346, /home/emanuel/Work/static-website-generator/dpvl/styles/custom.scss */
+.glyphicon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
