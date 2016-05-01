@@ -6,7 +6,21 @@ module.exports = {
     "include": []
   },
   "metalsmith": {
-    "metadata": {},
+    "metadata": {
+      "site_title": "D.Pavelescu",
+      "meta_title" : {
+        "de": "d.Pavelescu | PEDALONES Riesling 2015 | Nussberg Wien",
+        "ro" : "d.Pavelescu | PEDALONES Riesling 2015 | Nussberg Vienna Austria"
+      },
+      "meta_description" : {
+        "de": "Pop-up-Wein „PEDALONES“ - Riesling vom Wiener Nussberg 2015 - produziert von Önologe Dragos Pavelescu",
+        "ro" : "Vin pop-up „PEDALONES“ - Riesling Wiener Nussberg 2015 - produs de Dragos Pavelescu, oenolog"        
+      },
+      "copyright" : {
+        "de": "2016. Alle Rechte vorbehalten.",
+        "ro" : "2016. Toate drepturile rezervate."
+      }
+    },
     "config": {
       "contentRoot": "./content",
       "assetRoot": "./sources",
