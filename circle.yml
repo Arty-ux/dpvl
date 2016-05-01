@@ -19,4 +19,4 @@ deployment:
     branch: master
     commands:
       - npm install -g gulp
-      - ./scripts/deploy_production.sh
+#      - ./scripts/deploy_production.sh
