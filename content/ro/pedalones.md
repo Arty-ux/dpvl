@@ -7,8 +7,8 @@ tmpl: pedalones
 navtext: Riesling 2015
 ---
 ## PEDALONES
-Primul vin "pop-up" din Austria. Un concept, cunoscut până acum doar de restaurante, baruri sau  magazine - aplicat la productia de vin - inseamnă că fiecare vin "pop-up" este unicat și se produce o singură dată, în cantitate limitată.
+Începând de azi, puteți cumpăra primul vin pop-up din Austria, un concept cunoscut până acum doar de restaurante, baruri sau  magazine. Fiecare vin este unicat și se produce o singură dată în cantitate limitată. 
 
-Primul produs al liniei de vinuri cu denumirea PEDALONES este un Riesling din regiunea vieneză Nussberg din anul 2015. PEDALONES este un nume imaginativ și are următoarea semnificație: să apeși pe pedală, să fii în mișcare, să accelerezi și să te distrezi. 
+PEDALONES, primul produs al liniei de vinuri, este un Riesling din regiunea vieneză Nussberg din anul 2015. 
 
-În spatele acestei idei se află enologul Dragoș Pavelescu.
+Numele este imaginativ și are următoarea semnificație: să apeși pe pedală, să fii în mișcare, să accelerezi și să te distrezi. În spatele acestei idei se află enologul Dragoș Pavelescu.

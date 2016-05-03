@@ -17,8 +17,8 @@ module.exports = {
         "ro" : "Vin pop-up „PEDALONES“ - Riesling Wiener Nussberg 2015 - produs de Dragos Pavelescu, oenolog"        
       },
       "copyright" : {
-        "de": "2016. Alle Rechte vorbehalten.",
-        "ro" : "2016. Toate drepturile rezervate."
+        "de": "2016. D.Pavelescu. Alle Rechte vorbehalten.",
+        "ro" : "2016. D.Pavelescu. Toate drepturile rezervate."
       }
     },
     "config": {
