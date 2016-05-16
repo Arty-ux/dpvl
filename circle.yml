@@ -9,7 +9,7 @@ machine:
 dependencies:
   override:
     - sudo apt-get update; sudo apt-get install g++
-    - sudo install ncftpput;
+    - sudo install ncftpput
     - npm install
     - npm install -g gulp
     - npm run production
