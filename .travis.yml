@@ -8,7 +8,7 @@ after_success:
   - tar -czf package.tgz build
   - export SSHPASS=$P
   - sshpass -e scp package.tgz $U@$H:/build
-#  - sshpass -e ssh $U@$H build/deploy.sh
+  - sshpass -e ssh $U@$H build/deploy.sh
 addons:
   apt:
     packages:
