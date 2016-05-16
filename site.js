@@ -13,8 +13,8 @@ module.exports = {
         "ro" : "d.Pavelescu | PEDALONES Riesling 2015 | Nussberg Vienna Austria"
       },
       "meta_description" : {
-        "de": "Pop-up-Wein „PEDALONES“ - Riesling vom Wiener Nussberg 2015 - produziert von Önologe Dragos Pavelescu",
-        "ro" : "Vin pop-up „PEDALONES“ - Riesling Wiener Nussberg 2015 - produs de Dragos Pavelescu, oenolog"        
+        "de": "Pop-up-Wein PEDALONES - Riesling vom Wiener Nussberg 2015 - produziert von Önologe Dragos Pavelescu",
+        "ro" : "Vin pop-up PEDALONES - Riesling Wiener Nussberg 2015 - produs de Dragos Pavelescu, oenolog"        
       },
       "copyright" : {
         "de": "2016. D.Pavelescu. Alle Rechte vorbehalten.",
