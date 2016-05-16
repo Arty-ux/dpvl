@@ -5,5 +5,11 @@ before_script:
   - npm install -g gulp
 script: gulp
 after_success:
-  -
-  - surge --project /home/travis/build/emanuelbaruch/dpvl/build/ --domain dpavelescu.com
+  - tar -czf package.tgz build
+  - export SSHPASS=$P
+  - sshpass -e scp package.tgz $U@$H:/build
+#  - sshpass -e ssh $U@$H build/deploy.sh
+addons:
+  apt:
+    packages:
+      - sshpass
