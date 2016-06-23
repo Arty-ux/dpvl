@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "5.4"
+before_script:
+  - npm install -g gulp
+script: gulp
+after_success:
+  - tar -czf package.tgz build
+  - export SSHPASS=$P
+  - sshpass -e scp package.tgz $U@$H:/build
+  - sshpass -e ssh $U@$H build/deploy.sh
+addons:
+  apt:
+    packages:
+      - sshpass

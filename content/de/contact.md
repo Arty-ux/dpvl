@@ -14,7 +14,7 @@ press_download: /pedalones.zip
 
 <small>Dr. nat. techn.</small> Dragos Pavelescu
 
-#### Endverbraucherpreise <smallzzgl. Versandkosten</small>
+#### Endverbraucherpreise <small>zzgl. Versandkosten</small>
 
 1 Flasche (0,75l): **€ 17,90** 
 

@@ -7,7 +7,7 @@ nonav: true
 ---
 PEDALONES
 
-<br>Riesling 2015
+<br>Riesling 2o15
 
 Trocken
 
