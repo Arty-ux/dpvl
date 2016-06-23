@@ -1,5 +1,5 @@
 ---
-order: 101
+order: 120
 layout: blank.handlebars
 tmpl: collapse
 title: Impressum

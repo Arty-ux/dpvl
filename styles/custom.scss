@@ -176,6 +176,19 @@
                     padding-right:10px;
                 }
             }
+
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+
+            li {
+                margin-bottom: 10px;
+            }
+
+            ul {
+                margin: 10px 0;
+            }
         }
     }
 }
