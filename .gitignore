@@ -3,3 +3,7 @@ node_modules
 npm-debug.log
 .tmp
 .directory
+
+sources/assets/app.css
+sources/assets/app.js
+sources/assets/vendor.js
