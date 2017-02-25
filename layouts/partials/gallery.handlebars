@@ -1,0 +1,24 @@
+<div class="section gallery" id="{{this.link}}">
+    <div class="container">
+        <div class="story-making-of">
+            <div class="content-area">
+                <h3 class="text-center">{{title}}</h3>
+                {{#block "main"}}{{{contents}}}{{/block}}
+            </div>
+            <div class="row ">
+            {{#each gallery}}
+                {{#if title}}
+                    <div class="col col-xs-12"><h4 class="text-center">{{{title}}}</h4></div>
+                {{/if}}
+                {{#if poza}}
+                    <div class="col col-xs-12 col-sm-4">
+                        <div class="item">
+                            <img src="/assets/images/{{poza}}" class="img-responsive">
+                        </div>
+                    </div>
+                {{/if}}
+            {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

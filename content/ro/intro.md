@@ -1,15 +1,11 @@
 ---
 order: 1
-image: intro.jpg
+image: intro2.jpg
 layout: blank.handlebars
 tmpl: intro
 nonav: true
 ---
 PEDALONES
-
-<br>Riesling 2015
-
-Sec
 
 Viena, Nussberg
 

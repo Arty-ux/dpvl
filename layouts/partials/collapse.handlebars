@@ -5,20 +5,7 @@
         </div>
 
         <div class="collapse" id="collapse-{{@index}}">
-            <div class="row">
-                {{#if this.image}}
-                <div class="col col-xs-12 col-sm-6">
-                    <div class="image-area">
-                        <img src="/assets/images/{{image}}" class="img-responsive">
-                    </div>
-                </div>
-                {{/if}}
-                <div class="col col-xs-12 {{#if this.image}}col-sm-6{{/if}}">
-                    <div class="content-area">
-                        {{#block "main"}}{{{contents}}}{{/block}}
-                    </div>
-                </div>
-            </div>
+            {{>content_row}}
         </div>
     </div>
 </div>

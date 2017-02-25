@@ -3,7 +3,6 @@ order: 100
 layout: blank.handlebars
 tmpl: contact
 title: Contact
-navtext: Comenzi
 phone: +43 699 19040257
 email: info@dpavelescu.com
 address: Schäffergasse 17/3, 1040 Viena, Austria
@@ -22,19 +21,20 @@ maplink: https://www.google.at/maps/place/Sch%C3%A4ffergasse+17,+1040+Wien/@48.1
 <br>
 #### Aici puteti degusta / cumpara PEDALONES:
 
-#### AUSTRIA
-
-- Viena
-	- [Restaurant Giorgina, 1010 Wien](http://www.giorgina.at)
-	- [Restaurant Kim, 1090 Wien](http://www.sohyikim.com/restaurant)
-	- [Gasthaus Wolf, 1040 Wien](http://www.gasthauswolf.at)
-
 #### ROMANIA
 
 - BUCURESTI
 	- [MiniGolf Cafe Bucuresti: Park Floreasca & Herastrau](http://www.minigolf-cafe.ro/bucuresti)
 - SIBIU
 	- [Golf Hotel Pianu, Pianu de Jos](http://www.golfhotelpianu.ro)
+
+#### AUSTRIA
+
+- Viena
+	- [Vertriebspartner Del Fabro, 1200 Wien](http://www.delfabro.at)
+	- [Restaurant Giorgina, 1010 Wien](http://www.giorgina.at)
+	- [Restaurant Kim, 1090 Wien](http://www.sohyikim.com/restaurant)
+	- [Gasthaus Wolf, 1040 Wien](http://www.gasthauswolf.at)
 
 ####  GERMANIA
 
