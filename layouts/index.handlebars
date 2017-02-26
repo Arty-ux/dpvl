@@ -9,20 +9,13 @@
     <meta http-equiv="content-language" content="{{langCode}}" />
     <meta name="google-site-verification" content="8qbz_VyA9hDGtrntffwC0SA3k8ePIbYsh71SUrj8Sns" />
     <title>{{meta_title}}</title>
-    
     <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
     <link rel="icon" href="favicon.png">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/assets/app.css?{{fileHash}}">
-
-    <script src="/assets/js/jquery.1.11.3.js?{{fileHash}}"></script>
-    <script src="/assets/js/jquery.debounce.js?{{fileHash}}"></script>
-    <script src="/assets/js/bootstrap.3.3.6.js?{{fileHash}}"></script>
-    <script src="/assets/app.js?{{fileHash}}"></script>
 </head>
-
 <body data-function="{{function}}" data-spy="scroll" data-target="#scrollspy" data-offset="140">
 	<div class="language">
 		<div class="container"> 
@@ -51,9 +44,7 @@
 					{{#each contentItems}}
 						{{#if (not this.nonav)}}
 			            <li class="nav-item">
-			            	<a href="#{{this.link}}">
-			            		<div class="nav-title">{{this.title}}</div>
-			            	</a>
+			            	<a href="#{{this.link}}">{{this.title}}</a>
 			            </li>
 			            {{/if}}
 			        {{/each}}
@@ -61,8 +52,7 @@
 				</div> 
 			</div> 
 		</div> 
-	</nav> 
-    
+	</nav>
     {{#each contentItems}}
         {{#if (not this.tmpl)}}	            
             {{#extend "default"}}
@@ -86,11 +76,16 @@
 	        {{/extend}}
         {{/if}}
 	{{/each}}
-
 	<div class="footer">
 		<div class="container"> 
-		&copy; {{copyright}}
+			&copy; {{copyright}}
 		</div>
 	</div>
+	<script src="/assets/js/jquery.2.1.3.min.js?{{fileHash}}"></script>
+	<script src="/assets/js/bootstrap.3.3.6.js?{{fileHash}}"></script>
+	<script src="/assets/js/jquery.touchSwipe.min.js?{{fileHash}}"></script>
+	<script src="/assets/js/jquery.debounce.js?{{fileHash}}"></script>
+	<script src="/assets/app.js?{{fileHash}}"></script>
+	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-71274454-1', 'auto'); ga('send', 'pageview');</script>
 </body>
 </html>

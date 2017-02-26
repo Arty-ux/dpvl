@@ -1,3 +1,6 @@
+body {
+    min-width: 320px;
+}
 .language {
     .container {
         position: relative;
@@ -36,17 +39,17 @@
     -webkit-box-shadow: 0px 0 1px #ccc;
     -moz-box-shadow: 0px 0 1px #ccc;
     box-shadow: 0px 0 1px #ccc;
+    min-width: 320px;
     .navbar-header {
         min-width: 50%;
         .navbar-brand {
-            width: 100%;
+            width: auto;
             display: block;
-            // background-image: url(images/dpavelescu_logo.png);
-            // background-repeat: no-repeat;
-            // background-size: auto 67%;
-            // background-position: 0 50%;
+            height: auto;
+            padding: 49px 15px;
             font-size: 36px;
             color: $brand-primary;
+
         }
     }
     .nav {
@@ -73,10 +76,11 @@
         min-height: 60px;
         .navbar-brand {
             font-size: 26px;
+            padding: 29px 15px;
         }
         .nav-item {
             a {
-                padding-top: 39px;
+                padding-top: 32px;
                 padding-bottom: 13px;
                 .nav-text {
                     opacity: 0;
@@ -125,42 +129,15 @@
 }
 
 .section {
-    padding-top: 40px;
+    padding-top: 120px;
     padding-bottom: 40px;
     color: $brand-primary;
-    .pedalones-bg {
-        background: url('images/pedalones_bg.png') repeat-x center top;
-        padding-top: 80px;
-    }
-    &.pedalones {
-        h1,
-        h2 {
-            margin-top: 46px;
-            margin-bottom: 46px;
-        }
-    }
-    &.story {
-        h1,
-        h2 {
-            margin-top: 0;
-            margin-bottom: 46px;
-        }
-        .story-image {
-            // margin-top: 80px;
-        }
-    }
-    .story-making-of {
-        margin-top: 40px;
 
-        h3 {
-            margin-bottom: 20px;
-        }
-    }
     &.contact {
-        padding-top: 40px;
-        padding-bottom: 40px;
         .contact-info {
+
             margin-top: 40px;
+
             p:not(.download) {
                 margin-bottom: 40px;
             }
@@ -177,17 +154,31 @@
             }
 
         }
+    }
+}
+#distr {
+    padding-top: 0px;
+}
+.content-area {
+    ul {
+        list-style-type: none;
+        padding-left: 10px;
+
+        li {
+            margin-bottom: 10px;
+        }
+
         ul {
-            list-style-type: none;
-            padding-left: 10px;
+            margin: 10px 0;
+        }
+    }
+    ul + h4 {
+        margin-top: 40px;
+    }
 
-            li {
-                margin-bottom: 10px;
-            }
-
-            ul {
-                margin: 10px 0;
-            }
+    h3 {
+        &:first-child {
+            margin-bottom: 20px;
         }
     }
 }
@@ -212,12 +203,19 @@
     }
 }
 .gallery {
+    padding-top: 0 !important;
     h3 {
         margin-bottom: 0;
     }
     h4 {
         margin-top: 40px;
         margin-bottom: 10px;
+    }
+}
+.carousel-indicators {
+    li {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 }
 .footer {
@@ -259,9 +257,8 @@
         }
        
         .navbar-brand {
-            height: 80px;
+            padding-top: 28px;
             margin-left: 20px;
-            width: 80%;
         }
 
         .nav-item {  
@@ -271,9 +268,7 @@
         &.affix {
             min-height: 40px;
             .navbar-brand {
-                padding-top: 19px;
-                padding-bottom: 19px;
-                height: 60px;
+                padding-top: 28px;
             }
             .nav-item {
                 a {
@@ -329,7 +324,6 @@
         }
     }
     .navbar-brand {
-        height: 80px;
         margin-left: 0 !important;
     }
     #nav {
@@ -342,9 +336,7 @@
         &.affix {
             min-height: 40px;
             .navbar-brand {
-                padding-top: 19px;
-                padding-bottom: 19px;
-                height: 60px;
+
             }
             .nav-item {
 

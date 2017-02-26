@@ -1,6 +1,6 @@
 ---
 order: 10
-title: PEDALONES
+title: DIE WEINE
 image: pedalones_web.jpg
 layout: blank.handlebars
 ---

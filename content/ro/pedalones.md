@@ -1,6 +1,6 @@
 ---
 order: 10
-title: PEDALONES
+title: VINURILE
 image: pedalones_web.jpg
 layout: blank.handlebars
 ---
