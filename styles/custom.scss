@@ -29,9 +29,7 @@ body {
 .navbar,
 .navbar li,
 .navbar a {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+    @include transition(0.35s);
 }
 
 .navbar.navbar-default {
@@ -214,8 +212,15 @@ body {
 }
 .carousel-indicators {
     li {
+        @include transition(0.35s);
         margin-left: 20px !important;
         margin-right: 20px !important;
+        background: $brand-primary;
+
+        &:active {
+            background: #fff;
+            border-color: $brand-primary;
+        }
     }
 }
 .footer {
@@ -228,7 +233,7 @@ body {
         top: 88px;
     }
     .intro {
-        margin-top: 80px;
+        padding-top: 80px;
         margin-bottom: 0;
         .jumbotron-wrap {
             position: static;
@@ -357,13 +362,4 @@ body {
     .content-area {
         padding-right: 40px;
     }
-}
-
-.glyphicon-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
